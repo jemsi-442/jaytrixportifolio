@@ -1,5 +1,6 @@
 import { Poppins, Inter } from "next/font/google";
 import "./globals.css";
+import { profile } from "@/lib/data";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -13,29 +14,29 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Jemsi Pallangyo A.K.A JAYFOUR | Full Stack Software Engineer",
-  description:
-    "Portfolio of Jemsi — Full Stack Software Engineer specializing in React, Next.js, Java SpringBoot, PHP Laravel, and modern web & mobile development. Based in Dodoma, Tanzania.",
+  title: `${profile.name} | ${profile.title}`,
+  description: `${profile.tagline} Based in ${profile.location}.`,
   keywords: [
-    "Full Stack Developer",
-    "React",
+    "Software Engineer",
+    "Systems Architect",
     "Next.js",
-    "SpringBoot",
-    "Java",
     "Node.js",
-    "MongoDB",
+    "PHP",
     "Symfony",
     "Laravel",
-    "Software Engineer",
-    "Jemsi Pallangyo",
+    "Django",
+    "MongoDB",
+    "MySQL",
+    "RBAC",
+    "Secure API Architecture",
+    profile.name,
     "Tanzania",
-    "Web Development",
+    "Software Development",
   ],
-  authors: [{ name: "Jemsi Pallangyo A.K.A JAYFOUR" }],
+  authors: [{ name: profile.name }],
   openGraph: {
-    title: "Jemsi Pallangyo A.K.A JAYFOUR | Full Stack Software Engineer",
-    description:
-      "Full Stack Software Engineer specializing in React, Next.js, SpringBoot, Laravel, and modern web & mobile development.",
+    title: `${profile.name} | ${profile.title}`,
+    description: `${profile.tagline} Based in ${profile.location}.`,
     type: "website",
     locale: "en_US",
   },
@@ -46,8 +47,8 @@ export default function RootLayout({ children }) {
   const bodyClass = `${poppins.variable} ${inter.variable} antialiased bg-background text-foreground`;
 
   return (
-    <html lang="en">
-      <body className={bodyClass}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={bodyClass} suppressHydrationWarning>
         {children}
       </body>
     </html>

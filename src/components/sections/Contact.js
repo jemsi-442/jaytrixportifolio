@@ -33,6 +33,16 @@ export default function Contact() {
     setTimeout(() => setStatus(null), 3000);
   };
 
+  const handleQuickStart = (theme) => {
+    setFormData((prev) => ({
+      ...prev,
+      subject: prev.subject || theme,
+      message:
+        prev.message ||
+        `Hi Jemsi,\n\nI would like to discuss: ${theme}.\n\nProject overview:\n- \n- \n-\n`,
+    }));
+  };
+
   const contactInfo = [
     {
       icon: MailIcon,
@@ -67,7 +77,7 @@ export default function Contact() {
         <AnimateOnScroll>
           <SectionHeading
             title="Get in Touch"
-            subtitle="Have a project in mind? Let's work together"
+            subtitle="For serious software builds, architecture work, and system-focused collaboration."
           />
         </AnimateOnScroll>
 
@@ -76,13 +86,61 @@ export default function Contact() {
           <AnimateOnScroll animation="animate-slide-in-left">
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-4">
-                Let&apos;s Work Together
+                Let&apos;s Build Something Structured
               </h3>
               <p className="text-foreground-secondary mb-8 leading-relaxed">
-                I&apos;m always open to discussing new projects, creative ideas,
-                or opportunities to be part of your vision. Feel free to reach
-                out through any of the channels below.
+                I&apos;m open to software engineering collaborations, API-focused
+                builds, and architecture discussions where system structure and
+                long-term maintainability matter. Reach out through the channel
+                that feels easiest for you.
               </p>
+
+              <div className="mb-8 rounded-[1.75rem] border border-border bg-surface/50 p-5">
+                <div className="text-[11px] font-mono uppercase tracking-[0.24em] text-accent">
+                  Best Fit Conversations
+                </div>
+                <div className="mt-4 flex flex-wrap gap-3">
+                  {profile.collaborationThemes.map((theme) => (
+                    <button
+                      key={theme}
+                      type="button"
+                      onClick={() => handleQuickStart(theme)}
+                      className="rounded-full border border-border bg-background/60 px-4 py-2 text-sm text-foreground-secondary transition-all duration-300 hover:border-accent/40 hover:text-accent"
+                    >
+                      {theme}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mb-8 grid gap-4 sm:grid-cols-2">
+                <div className="rounded-2xl border border-accent/20 bg-accent/10 p-4">
+                  <div className="text-[11px] font-mono uppercase tracking-[0.2em] text-accent">
+                    Availability
+                  </div>
+                  <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
+                    {profile.availability}
+                  </p>
+                </div>
+                <div className="rounded-2xl border border-border bg-surface/50 p-4">
+                  <div className="text-[11px] font-mono uppercase tracking-[0.2em] text-foreground-muted">
+                    Response
+                  </div>
+                  <p className="mt-2 text-sm leading-relaxed text-foreground-secondary">
+                    {profile.responseTime}
+                  </p>
+                </div>
+              </div>
+
+              <div className="mb-8 rounded-[1.75rem] border border-border bg-background/50 p-5">
+                <div className="text-[11px] font-mono uppercase tracking-[0.24em] text-foreground-muted">
+                  Engagement Style
+                </div>
+                <p className="mt-3 text-sm leading-relaxed text-foreground-secondary">
+                  Clear requirements are helpful, but not required. If you only have a rough idea,
+                  I can still help shape the system direction, workflow structure, and delivery path.
+                </p>
+              </div>
 
               <div className="space-y-4">
                 {contactInfo.map((item) => {
@@ -132,6 +190,51 @@ export default function Contact() {
               onSubmit={handleSubmit}
               className="space-y-4 p-6 md:p-8 rounded-2xl bg-surface/60 border border-border"
             >
+              <div>
+                <div className="text-[11px] font-mono uppercase tracking-[0.24em] text-accent">
+                  Project Inquiry
+                </div>
+                <h3 className="mt-3 text-2xl font-bold text-foreground">
+                  Start the conversation clearly
+                </h3>
+                <p className="mt-3 text-sm leading-relaxed text-foreground-secondary">
+                  Share the goal, the type of system you want to build or improve, and anything
+                  already in place. The more context you have, the faster I can respond with useful direction.
+                </p>
+              </div>
+
+              <div className="rounded-xl border border-border bg-background/70 px-4 py-3 text-sm text-foreground-secondary">
+                Sending this form opens your email client with the message pre-filled,
+                so you can review it before sending.
+              </div>
+
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+                <div className="rounded-2xl border border-border bg-background/60 p-4">
+                  <div className="text-[11px] font-mono uppercase tracking-[0.2em] text-foreground-muted">
+                    Focus
+                  </div>
+                  <p className="mt-2 text-sm text-foreground-secondary">
+                    Architecture
+                  </p>
+                </div>
+                <div className="rounded-2xl border border-border bg-background/60 p-4">
+                  <div className="text-[11px] font-mono uppercase tracking-[0.2em] text-foreground-muted">
+                    Typical Reply
+                  </div>
+                  <p className="mt-2 text-sm text-foreground-secondary">
+                    Within 24h
+                  </p>
+                </div>
+                <div className="rounded-2xl border border-border bg-background/60 p-4">
+                  <div className="text-[11px] font-mono uppercase tracking-[0.2em] text-foreground-muted">
+                    Best For
+                  </div>
+                  <p className="mt-2 text-sm text-foreground-secondary">
+                    Serious builds
+                  </p>
+                </div>
+              </div>
+
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label
@@ -166,7 +269,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 rounded-xl bg-background border border-border text-foreground placeholder:text-foreground-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-all duration-200"
-                    placeholder="jayfour@email.com"
+                    placeholder="jaytrix@email.com"
                   />
                 </div>
               </div>
@@ -214,6 +317,11 @@ export default function Contact() {
                   </>
                 )}
               </Button>
+              {status === "sent" && (
+                <div className="rounded-xl border border-accent/20 bg-accent/10 px-4 py-3 text-sm text-accent">
+                  Your email app should open now with the message already prepared.
+                </div>
+              )}
             </form>
           </AnimateOnScroll>
         </div>

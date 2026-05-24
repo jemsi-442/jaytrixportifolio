@@ -3,6 +3,7 @@
 import { education } from "@/lib/data";
 import AnimateOnScroll from "@/components/ui/AnimateOnScroll";
 import SectionHeading from "@/components/ui/SectionHeading";
+import Badge from "@/components/ui/Badge";
 
 export default function Education() {
   return (
@@ -11,7 +12,7 @@ export default function Education() {
         <AnimateOnScroll>
           <SectionHeading
             title="Education & System Mastery"
-            subtitle="Structured learning that shaped my backend architecture expertise"
+            subtitle="Academic and self-driven learning that strengthened both technical execution and operational understanding"
           />
         </AnimateOnScroll>
 
@@ -33,27 +34,30 @@ export default function Education() {
                   </div>
 
                   {/* Education content */}
-                  <div className="flex-1">
-                    <div className="flex justify-between items-center">
+                  <div className="flex-1 rounded-2xl border border-border bg-surface/50 p-5 md:p-6">
+                    <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
                       <h3 className="text-lg md:text-xl font-bold text-foreground">
                         {item.title}
                       </h3>
-                      <span className="text-sm text-foreground-muted">
+                      <span className="inline-flex w-fit rounded-full border border-accent/20 bg-accent/10 px-3 py-1 text-sm text-accent">
                         {item.year}
                       </span>
                     </div>
                     <p className="text-foreground-secondary text-sm md:text-base mt-1.5 font-medium">
                       {item.institution}
                     </p>
-                    <p className="text-foreground-secondary text-sm mt-2 leading-relaxed">
+                    <p className="text-foreground-secondary text-sm mt-3 leading-relaxed">
                       {item.description}
                     </p>
 
-                    {/* Optional: highlight backend/system focus */}
-                    {item.title.toLowerCase().includes("software") && (
-                      <p className="mt-2 text-xs sm:text-sm font-mono text-accent">
-                        Focus: Backend Architecture, System Design, Secure Development
-                      </p>
+                    {item.focus?.length > 0 && (
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        {item.focus.map((focus) => (
+                          <Badge key={focus} variant="accent">
+                            {focus}
+                          </Badge>
+                        ))}
+                      </div>
                     )}
                   </div>
                 </div>

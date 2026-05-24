@@ -27,7 +27,7 @@ const layers = [
       {
         label: "Django",
         color: "#092E20",
-        desc: "Secure backend framework",
+        desc: "Secure software framework",
         link: "https://github.com/jemsi-442",
       },
     ],
@@ -66,7 +66,7 @@ export default function TechFlow() {
   const [active, setActive] = useState(null);
 
   return (
-    <div className="relative w-[520px] h-[520px]">
+    <div className="relative mx-auto h-[300px] w-[300px] sm:h-[380px] sm:w-[380px] lg:h-[500px] lg:w-[500px]">
       <div className="absolute inset-0 rounded-full bg-accent/5 blur-3xl" />
 
       <svg viewBox="-10 -10 120 120" className="w-full h-full">
@@ -180,7 +180,7 @@ export default function TechFlow() {
 
       {/* Tooltip */}
       {active && (
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 bg-surface border border-border px-4 py-2 rounded-xl shadow-xl text-sm text-foreground-secondary backdrop-blur-md">
+        <div className="absolute bottom-2 left-1/2 w-[min(18rem,calc(100%-0.75rem))] -translate-x-1/2 rounded-xl border border-border bg-surface px-4 py-2 text-center text-sm text-foreground-secondary shadow-xl backdrop-blur-md sm:bottom-6">
           <span className="font-semibold text-accent">
             {active.label}
           </span>{" "}

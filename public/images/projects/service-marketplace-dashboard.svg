@@ -1,0 +1,271 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="32" fill="#F3F6FB"/>
+  <rect width="288" height="900" fill="#102548"/>
+  <line x1="288.5" y1="0" x2="288.5" y2="900" stroke="#2A3F63"/>
+
+  <rect x="26" y="28" width="40" height="40" rx="8" fill="#F8FAFC"/>
+  <circle cx="46" cy="48" r="14" fill="#2563EB"/>
+  <text x="82" y="44" fill="#F8FAFC" font-size="16" font-weight="700" font-family="Arial, sans-serif">WOLFIX</text>
+  <text x="82" y="68" fill="#94A3B8" font-size="12" font-family="Arial, sans-serif" letter-spacing="2">NAVIGATION</text>
+
+  <rect x="18" y="114" width="236" height="64" rx="18" fill="url(#navGlow)"/>
+  <circle cx="52" cy="146" r="18" fill="#FFFFFF" fill-opacity="0.16"/>
+  <text x="82" y="153" fill="#FFFFFF" font-size="18" font-family="Arial, sans-serif">Welcome</text>
+  <circle cx="52" cy="222" r="18" fill="#FFFFFF" fill-opacity="0.1"/>
+  <text x="82" y="229" fill="#F8FAFC" font-size="18" font-family="Arial, sans-serif">Capability Lanes</text>
+  <circle cx="52" cy="298" r="18" fill="#FFFFFF" fill-opacity="0.1"/>
+  <text x="82" y="305" fill="#F8FAFC" font-size="18" font-family="Arial, sans-serif">Verification</text>
+  <circle cx="52" cy="374" r="18" fill="#FFFFFF" fill-opacity="0.1"/>
+  <text x="82" y="381" fill="#F8FAFC" font-size="18" font-family="Arial, sans-serif">Requests</text>
+  <circle cx="52" cy="450" r="18" fill="#FFFFFF" fill-opacity="0.1"/>
+  <text x="82" y="457" fill="#F8FAFC" font-size="18" font-family="Arial, sans-serif">Withdrawals</text>
+  <circle cx="52" cy="526" r="18" fill="#FFFFFF" fill-opacity="0.1"/>
+  <text x="82" y="533" fill="#F8FAFC" font-size="18" font-family="Arial, sans-serif">Bookings</text>
+  <circle cx="52" cy="602" r="18" fill="#FFFFFF" fill-opacity="0.1"/>
+  <text x="82" y="609" fill="#F8FAFC" font-size="18" font-family="Arial, sans-serif">Inbox</text>
+  <circle cx="52" cy="678" r="18" fill="#FFFFFF" fill-opacity="0.1"/>
+  <text x="82" y="685" fill="#F8FAFC" font-size="18" font-family="Arial, sans-serif">Alerts</text>
+  <circle cx="242" cy="678" r="14" fill="#334B78"/>
+  <text x="237" y="684" fill="#FFFFFF" font-size="14" font-weight="700" font-family="Arial, sans-serif">3</text>
+
+  <rect x="18" y="842" width="118" height="52" rx="26" fill="#F8FAFC" fill-opacity="0.92"/>
+  <circle cx="46" cy="868" r="22" fill="#1F2937"/>
+  <text x="41" y="874" fill="#FFFFFF" font-size="16" font-family="Arial, sans-serif">N</text>
+  <text x="62" y="875" fill="#1F2937" font-size="18" font-family="Arial, sans-serif">Home</text>
+  <rect x="150" y="842" width="104" height="52" rx="26" fill="#F8FAFC" fill-opacity="0.92"/>
+  <text x="190" y="864" fill="#1F2937" font-size="16" font-family="Arial, sans-serif">Log</text>
+  <text x="190" y="884" fill="#1F2937" font-size="16" font-family="Arial, sans-serif">out</text>
+
+  <rect x="288" y="0" width="1312" height="78" fill="#102548"/>
+  <rect x="310" y="18" width="42" height="42" rx="10" fill="#F8FAFC"/>
+  <circle cx="331" cy="39" r="15" fill="#2563EB"/>
+  <text x="394" y="28" fill="#B8C7E0" font-size="14" font-family="Arial, sans-serif" letter-spacing="4">WOLFIX</text>
+  <text x="394" y="56" fill="#FFFFFF" font-size="18" font-family="Arial, sans-serif">Studio</text>
+  <rect x="1094" y="18" width="210" height="42" rx="21" fill="#1A3159" stroke="#44597D"/>
+  <text x="1122" y="44" fill="#F8FAFC" font-size="16" font-family="Arial, sans-serif" letter-spacing="3">ONLINE</text>
+  <text x="1200" y="44" fill="#CBD5E1" font-size="14" font-family="Arial, sans-serif">Synced 9:38 PM</text>
+  <rect x="1318" y="18" width="236" height="42" rx="21" fill="#1A3159" stroke="#44597D"/>
+  <text x="1342" y="44" fill="#F8FAFC" font-size="16" font-family="Arial, sans-serif">vendor.demo@wolfix.co.tz</text>
+
+  <rect x="366" y="94" width="1208" height="760" rx="28" fill="#FFFFFF" stroke="#D8E2EE"/>
+
+  <rect x="378" y="108" width="118" height="36" rx="18" fill="#F8FAFC" stroke="#D9E4F2"/>
+  <circle cx="398" cy="126" r="7" fill="#14B8A6"/>
+  <text x="416" y="132" fill="#51627F" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">PROOF 0</text>
+  <rect x="510" y="108" width="118" height="36" rx="18" fill="#F8FAFC" stroke="#D9E4F2"/>
+  <circle cx="530" cy="126" r="7" fill="#F59E0B"/>
+  <text x="548" y="132" fill="#51627F" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">POLISH 2</text>
+  <rect x="642" y="108" width="138" height="36" rx="18" fill="#F8FAFC" stroke="#D9E4F2"/>
+  <circle cx="662" cy="126" r="7" fill="#F97316"/>
+  <text x="680" y="132" fill="#51627F" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">INACTIVE 1</text>
+  <rect x="794" y="108" width="132" height="36" rx="18" fill="#F8FAFC" stroke="#D9E4F2"/>
+  <circle cx="814" cy="126" r="7" fill="#38BDF8"/>
+  <text x="832" y="132" fill="#51627F" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">DELIVERY 0</text>
+
+  <rect x="378" y="174" width="430" height="428" rx="34" fill="url(#panelMint)" stroke="#D7E3EE"/>
+  <rect x="392" y="174" width="152" height="6" rx="3" fill="#33C3B0"/>
+  <text x="412" y="214" fill="#62748F" font-size="14" font-family="Arial, sans-serif" letter-spacing="4">ANALYTICS MODULE</text>
+  <rect x="678" y="198" width="96" height="64" rx="32" fill="#D5F5EF" stroke="#9EE0D5"/>
+  <text x="697" y="228" fill="#06B6D4" font-size="13" font-family="Arial, sans-serif" letter-spacing="3">SIGNAL</text>
+  <text x="706" y="246" fill="#06B6D4" font-size="13" font-family="Arial, sans-serif" letter-spacing="3">MAP</text>
+  <text x="406" y="298" fill="#1F2937" font-size="56" font-family="Arial, sans-serif">Capability</text>
+  <text x="406" y="346" fill="#1F2937" font-size="56" font-family="Arial, sans-serif">quality map</text>
+  <text x="406" y="404" fill="#475569" font-size="18" font-family="Arial, sans-serif">Read proof-backed lanes,</text>
+  <text x="406" y="436" fill="#475569" font-size="18" font-family="Arial, sans-serif">polish gaps, and inactive</text>
+  <text x="406" y="468" fill="#475569" font-size="18" font-family="Arial, sans-serif">services as one capability</text>
+  <text x="406" y="500" fill="#475569" font-size="18" font-family="Arial, sans-serif">stack.</text>
+
+  <circle cx="565" cy="478" r="92" stroke="#FFF1C5" stroke-width="18"/>
+  <circle cx="565" cy="478" r="92" stroke="#F59E0B" stroke-width="18" stroke-dasharray="360 220" stroke-linecap="round" transform="rotate(-90 565 478)"/>
+  <circle cx="565" cy="478" r="64" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="10"/>
+  <text x="552" y="472" fill="#111827" font-size="28" font-weight="700" font-family="Arial, sans-serif">3</text>
+  <text x="542" y="504" fill="#64748B" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">LANES</text>
+
+  <circle cx="410" cy="624" r="7" fill="#14B8A6"/>
+  <text x="430" y="631" fill="#475569" font-size="16" font-family="Arial, sans-serif">Proof-backed lanes</text>
+  <text x="744" y="631" fill="#475569" font-size="16" font-family="Arial, sans-serif">0</text>
+  <text x="762" y="631" fill="#94A3B8" font-size="16" font-family="Arial, sans-serif">0%</text>
+  <circle cx="410" cy="666" r="7" fill="#F59E0B"/>
+  <text x="430" y="673" fill="#475569" font-size="16" font-family="Arial, sans-serif">Needs polish</text>
+  <text x="736" y="673" fill="#475569" font-size="16" font-family="Arial, sans-serif">2</text>
+  <text x="754" y="673" fill="#94A3B8" font-size="16" font-family="Arial, sans-serif">67%</text>
+  <circle cx="410" cy="708" r="7" fill="#F97316"/>
+  <text x="430" y="715" fill="#475569" font-size="16" font-family="Arial, sans-serif">Inactive</text>
+  <text x="742" y="715" fill="#475569" font-size="16" font-family="Arial, sans-serif">1</text>
+  <text x="760" y="715" fill="#94A3B8" font-size="16" font-family="Arial, sans-serif">33%</text>
+
+  <rect x="836" y="174" width="268" height="94" rx="22" fill="#FFFFFF" stroke="#D7E3EE"/>
+  <text x="858" y="208" fill="#7B8BA5" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">LATEST VALUE</text>
+  <text x="858" y="242" fill="#1F2937" font-size="34" font-family="Arial, sans-serif">--</text>
+  <rect x="1118" y="174" width="268" height="94" rx="22" fill="#FFFFFF" stroke="#D7E3EE"/>
+  <text x="1140" y="208" fill="#7B8BA5" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">PEAK VALUE</text>
+  <text x="1140" y="242" fill="#1F2937" font-size="34" font-family="Arial, sans-serif">--</text>
+  <rect x="1400" y="174" width="128" height="94" rx="22" fill="#FFFFFF" stroke="#D7E3EE"/>
+  <text x="1420" y="208" fill="#7B8BA5" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">VISIBLE BALANCE</text>
+  <text x="1420" y="242" fill="#1F2937" font-size="20" font-family="Arial, sans-serif">0 TZS</text>
+
+  <rect x="836" y="296" width="468" height="250" rx="34" fill="url(#panelSky)" stroke="#D7E3EE"/>
+  <rect x="856" y="296" width="144" height="6" rx="3" fill="#5BC0EB"/>
+  <text x="862" y="338" fill="#62748F" font-size="14" font-family="Arial, sans-serif" letter-spacing="4">ANALYTICS MODULE</text>
+  <text x="860" y="404" fill="#1F2937" font-size="54" font-family="Arial, sans-serif">Recent booking</text>
+  <text x="860" y="450" fill="#1F2937" font-size="54" font-family="Arial, sans-serif">value</text>
+  <text x="860" y="506" fill="#475569" font-size="18" font-family="Arial, sans-serif">This graph follows the most</text>
+  <text x="860" y="538" fill="#475569" font-size="18" font-family="Arial, sans-serif">recent booking amounts</text>
+  <text x="860" y="570" fill="#475569" font-size="18" font-family="Arial, sans-serif">already attached to the studio.</text>
+  <rect x="1130" y="328" width="102" height="78" rx="34" fill="#DBF4FF" stroke="#A8E0F7"/>
+  <text x="1148" y="360" fill="#38BDF8" font-size="13" font-family="Arial, sans-serif" letter-spacing="3">REAL</text>
+  <text x="1142" y="382" fill="#38BDF8" font-size="13" font-family="Arial, sans-serif" letter-spacing="3">BOOKING</text>
+  <text x="1150" y="404" fill="#38BDF8" font-size="13" font-family="Arial, sans-serif" letter-spacing="3">FLOW</text>
+  <rect x="860" y="620" width="358" height="124" rx="24" fill="#FFFFFF" fill-opacity="0.72" stroke="#DDE5F0" stroke-dasharray="4 6"/>
+  <text x="898" y="682" fill="#475569" font-size="16" font-family="Arial, sans-serif">Recent booking value will appear here</text>
+  <text x="888" y="714" fill="#475569" font-size="16" font-family="Arial, sans-serif">once the studio receives protected work.</text>
+
+  <rect x="1320" y="296" width="110" height="212" rx="26" fill="url(#tileMint)" stroke="#D7E3EE"/>
+  <text x="1340" y="338" fill="#6E7F98" font-size="12" font-family="Arial, sans-serif" letter-spacing="3">AVAILABLE</text>
+  <text x="1348" y="356" fill="#6E7F98" font-size="12" font-family="Arial, sans-serif" letter-spacing="3">BALANCE</text>
+  <rect x="1380" y="316" width="84" height="38" rx="19" fill="#D9F5EE" stroke="#A7E5D8"/>
+  <text x="1400" y="341" fill="#14B8A6" font-size="13" font-family="Arial, sans-serif" letter-spacing="2">WALLET</text>
+  <text x="1340" y="430" fill="#1F2937" font-size="34" font-family="Arial, sans-serif">0</text>
+  <text x="1340" y="470" fill="#1F2937" font-size="34" font-family="Arial, sans-serif">TZS</text>
+  <line x1="1340" y1="500" x2="1440" y2="500" stroke="#14B8A6" stroke-width="4"/>
+  <text x="1340" y="550" fill="#475569" font-size="16" font-family="Arial, sans-serif">Ready vendor</text>
+  <text x="1340" y="582" fill="#475569" font-size="16" font-family="Arial, sans-serif">balance</text>
+
+  <rect x="1444" y="296" width="112" height="212" rx="26" fill="url(#tileLavender)" stroke="#D7E3EE"/>
+  <text x="1462" y="338" fill="#6E7F98" font-size="12" font-family="Arial, sans-serif" letter-spacing="3">ENGAGEMENTS</text>
+  <rect x="1514" y="316" width="64" height="38" rx="19" fill="#EEE6FF" stroke="#D1C1FF"/>
+  <text x="1530" y="341" fill="#8B5CF6" font-size="13" font-family="Arial, sans-serif" letter-spacing="2">FLOW</text>
+  <text x="1464" y="430" fill="#1F2937" font-size="34" font-family="Arial, sans-serif">0</text>
+  <line x1="1464" y1="450" x2="1550" y2="450" stroke="#8B5CF6" stroke-width="4"/>
+  <text x="1464" y="530" fill="#475569" font-size="16" font-family="Arial, sans-serif">Bookings in the</text>
+  <text x="1464" y="562" fill="#475569" font-size="16" font-family="Arial, sans-serif">studio flow</text>
+
+  <rect x="1320" y="524" width="110" height="158" rx="26" fill="url(#tilePeach)" stroke="#D7E3EE"/>
+  <text x="1340" y="558" fill="#6E7F98" font-size="12" font-family="Arial, sans-serif" letter-spacing="3">TRUST</text>
+  <text x="1340" y="576" fill="#6E7F98" font-size="12" font-family="Arial, sans-serif" letter-spacing="3">SCORE</text>
+  <rect x="1390" y="538" width="72" height="36" rx="18" fill="#FFE7D1" stroke="#FFC495"/>
+  <text x="1408" y="561" fill="#F97316" font-size="13" font-family="Arial, sans-serif" letter-spacing="2">TRUST</text>
+  <text x="1340" y="634" fill="#1F2937" font-size="34" font-family="Arial, sans-serif">--</text>
+  <line x1="1340" y1="662" x2="1442" y2="662" stroke="#F97316" stroke-width="4"/>
+  <text x="1340" y="706" fill="#475569" font-size="16" font-family="Arial, sans-serif">Marketplace trust</text>
+  <text x="1340" y="738" fill="#475569" font-size="16" font-family="Arial, sans-serif">posture</text>
+
+  <rect x="1444" y="524" width="112" height="158" rx="26" fill="url(#tileGold)" stroke="#D7E3EE"/>
+  <text x="1468" y="558" fill="#6E7F98" font-size="12" font-family="Arial, sans-serif" letter-spacing="3">RELEASE</text>
+  <text x="1468" y="576" fill="#6E7F98" font-size="12" font-family="Arial, sans-serif" letter-spacing="3">RATIO</text>
+  <rect x="1516" y="538" width="74" height="36" rx="18" fill="#FFF0C8" stroke="#F7D98D"/>
+  <text x="1532" y="561" fill="#F59E0B" font-size="13" font-family="Arial, sans-serif" letter-spacing="2">SETTLE</text>
+  <text x="1468" y="634" fill="#1F2937" font-size="34" font-family="Arial, sans-serif">--</text>
+  <line x1="1468" y1="662" x2="1570" y2="662" stroke="#F59E0B" stroke-width="4"/>
+  <text x="1468" y="706" fill="#475569" font-size="16" font-family="Arial, sans-serif">Protected work</text>
+  <text x="1468" y="738" fill="#475569" font-size="16" font-family="Arial, sans-serif">settled cleanly</text>
+
+  <rect x="836" y="712" width="264" height="142" rx="26" fill="url(#panelSoftMint)" stroke="#D7E3EE"/>
+  <text x="860" y="752" fill="#6E7F98" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">LANE COVERAGE</text>
+  <rect x="1026" y="732" width="54" height="34" rx="17" fill="#D5F5EF" stroke="#A7E5D8"/>
+  <text x="1044" y="754" fill="#0F766E" font-size="14" font-family="Arial, sans-serif">67%</text>
+  <rect x="860" y="792" width="194" height="54" rx="16" fill="#FFFFFF" fill-opacity="0.72"/>
+  <g fill="#7DD3C7">
+    <rect x="874" y="816" width="10" height="30" rx="5"/>
+    <rect x="892" y="808" width="10" height="38" rx="5"/>
+    <rect x="910" y="800" width="10" height="46" rx="5"/>
+    <rect x="928" y="792" width="10" height="54" rx="5"/>
+    <rect x="946" y="804" width="10" height="42" rx="5"/>
+    <rect x="964" y="812" width="10" height="34" rx="5"/>
+    <rect x="982" y="802" width="10" height="44" rx="5"/>
+    <rect x="1000" y="792" width="10" height="54" rx="5"/>
+  </g>
+  <g fill="#E5E7EB">
+    <rect x="1018" y="810" width="10" height="36" rx="5"/>
+    <rect x="1036" y="812" width="10" height="34" rx="5"/>
+    <rect x="1054" y="810" width="10" height="36" rx="5"/>
+  </g>
+  <rect x="860" y="868" width="216" height="12" rx="6" fill="#E5EAF1"/>
+  <rect x="860" y="868" width="140" height="12" rx="6" fill="#5AC8B8"/>
+  <circle cx="992" cy="874" r="12" fill="#5AC8B8"/>
+  <text x="860" y="918" fill="#475569" font-size="16" font-family="Arial, sans-serif">2 of 3 service lanes are</text>
+  <text x="860" y="950" fill="#475569" font-size="16" font-family="Arial, sans-serif">active.</text>
+
+  <rect x="1120" y="712" width="264" height="142" rx="26" fill="url(#panelSoftPeach)" stroke="#D7E3EE"/>
+  <text x="1144" y="752" fill="#6E7F98" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">REVIEW COVERAGE</text>
+  <rect x="1310" y="732" width="54" height="34" rx="17" fill="#FFF0C8" stroke="#F7D98D"/>
+  <text x="1329" y="754" fill="#B45309" font-size="14" font-family="Arial, sans-serif">0%</text>
+  <rect x="1144" y="792" width="194" height="54" rx="16" fill="#FFFFFF" fill-opacity="0.72"/>
+  <g fill="#E5E7EB">
+    <rect x="1158" y="822" width="10" height="24" rx="5"/>
+    <rect x="1176" y="814" width="10" height="32" rx="5"/>
+    <rect x="1194" y="806" width="10" height="40" rx="5"/>
+    <rect x="1212" y="818" width="10" height="28" rx="5"/>
+    <rect x="1230" y="812" width="10" height="34" rx="5"/>
+    <rect x="1248" y="820" width="10" height="26" rx="5"/>
+    <rect x="1266" y="814" width="10" height="32" rx="5"/>
+    <rect x="1284" y="810" width="10" height="36" rx="5"/>
+    <rect x="1302" y="818" width="10" height="28" rx="5"/>
+    <rect x="1320" y="814" width="10" height="32" rx="5"/>
+  </g>
+  <rect x="1144" y="868" width="216" height="12" rx="6" fill="#E5EAF1"/>
+  <text x="1144" y="918" fill="#475569" font-size="16" font-family="Arial, sans-serif">0 active lanes already have</text>
+  <text x="1144" y="950" fill="#475569" font-size="16" font-family="Arial, sans-serif">proof behind them.</text>
+
+  <rect x="1404" y="712" width="154" height="142" rx="26" fill="url(#panelSoftSky)" stroke="#D7E3EE"/>
+  <text x="1428" y="752" fill="#6E7F98" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">DELIVERY</text>
+  <text x="1428" y="774" fill="#6E7F98" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">PRESSURE</text>
+  <rect x="1510" y="732" width="54" height="34" rx="17" fill="#DDF2FF" stroke="#B9E0F9"/>
+  <text x="1529" y="754" fill="#0284C7" font-size="14" font-family="Arial, sans-serif">0%</text>
+  <rect x="1428" y="792" width="122" height="54" rx="16" fill="#FFFFFF" fill-opacity="0.72"/>
+  <g fill="#E5E7EB">
+    <rect x="1440" y="820" width="8" height="26" rx="4"/>
+    <rect x="1454" y="816" width="8" height="30" rx="4"/>
+    <rect x="1468" y="818" width="8" height="28" rx="4"/>
+    <rect x="1482" y="822" width="8" height="24" rx="4"/>
+    <rect x="1496" y="814" width="8" height="32" rx="4"/>
+    <rect x="1510" y="818" width="8" height="28" rx="4"/>
+    <rect x="1524" y="820" width="8" height="26" rx="4"/>
+  </g>
+  <rect x="1428" y="868" width="122" height="12" rx="6" fill="#E5EAF1"/>
+  <text x="1428" y="918" fill="#475569" font-size="16" font-family="Arial, sans-serif">0 live deliveries are moving</text>
+  <text x="1428" y="950" fill="#475569" font-size="16" font-family="Arial, sans-serif">across 0 engagements.</text>
+
+  <defs>
+    <linearGradient id="navGlow" x1="18" y1="114" x2="254" y2="178" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="panelMint" x1="378" y1="174" x2="808" y2="602" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6FEFD"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panelSky" x1="836" y1="296" x2="1304" y2="546" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FCFF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="tileMint" x1="1320" y1="296" x2="1430" y2="508" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5FFFB"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="tileLavender" x1="1444" y1="296" x2="1556" y2="508" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF8FF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="tilePeach" x1="1320" y1="524" x2="1430" y2="682" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9F4"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="tileGold" x1="1444" y1="524" x2="1556" y2="682" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFCEF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panelSoftMint" x1="836" y1="712" x2="1100" y2="854" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3FFFC"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panelSoftPeach" x1="1120" y1="712" x2="1384" y2="854" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF6"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="panelSoftSky" x1="1404" y1="712" x2="1558" y2="854" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5FBFF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,107 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="32" fill="#F3E8DD"/>
+  <rect width="300" height="900" fill="url(#sidebar)"/>
+
+  <text x="34" y="52" fill="#E7D7C5" font-size="16" font-weight="700" font-family="Arial, sans-serif" letter-spacing="3">HOME</text>
+  <rect x="20" y="76" width="246" height="56" rx="14" fill="#4B3710"/>
+  <rect x="20" y="76" width="4" height="56" rx="2" fill="#FACC15"/>
+  <circle cx="46" cy="104" r="7" fill="#FACC15"/>
+  <text x="68" y="111" fill="#FACC15" font-size="18" font-family="Arial, sans-serif">Dashboard</text>
+  <circle cx="46" cy="166" r="7" fill="#F8FAFC"/>
+  <text x="68" y="173" fill="#F3F4F6" font-size="17" font-family="Arial, sans-serif">Updates</text>
+  <circle cx="46" cy="228" r="7" fill="#F8FAFC"/>
+  <text x="68" y="235" fill="#F3F4F6" font-size="17" font-family="Arial, sans-serif">Chat</text>
+
+  <line x1="18" y1="262" x2="266" y2="262" stroke="#7C5A4B" stroke-opacity="0.5"/>
+  <text x="20" y="308" fill="#CBB8A8" font-size="14" font-weight="700" font-family="Arial, sans-serif" letter-spacing="2">WORK</text>
+  <circle cx="46" cy="344" r="7" fill="#F8FAFC"/>
+  <text x="68" y="351" fill="#F3F4F6" font-size="17" font-family="Arial, sans-serif">Giving</text>
+  <circle cx="46" cy="404" r="7" fill="#F8FAFC"/>
+  <text x="68" y="411" fill="#F3F4F6" font-size="17" font-family="Arial, sans-serif">Expenses</text>
+  <circle cx="46" cy="464" r="7" fill="#F8FAFC"/>
+  <text x="68" y="471" fill="#F3F4F6" font-size="17" font-family="Arial, sans-serif">Events</text>
+  <circle cx="46" cy="524" r="7" fill="#F8FAFC"/>
+  <text x="68" y="531" fill="#F3F4F6" font-size="17" font-family="Arial, sans-serif">Assistant</text>
+
+  <line x1="18" y1="562" x2="266" y2="562" stroke="#7C5A4B" stroke-opacity="0.5"/>
+  <text x="20" y="606" fill="#CBB8A8" font-size="14" font-weight="700" font-family="Arial, sans-serif" letter-spacing="2">ADMIN</text>
+  <circle cx="46" cy="644" r="7" fill="#F8FAFC"/>
+  <text x="68" y="651" fill="#F3F4F6" font-size="17" font-family="Arial, sans-serif">Users</text>
+  <circle cx="46" cy="704" r="7" fill="#F8FAFC"/>
+  <text x="68" y="711" fill="#F3F4F6" font-size="17" font-family="Arial, sans-serif">Branches</text>
+  <circle cx="46" cy="764" r="7" fill="#F8FAFC"/>
+  <text x="68" y="771" fill="#F3F4F6" font-size="17" font-family="Arial, sans-serif">Slider</text>
+
+  <line x1="18" y1="804" x2="266" y2="804" stroke="#7C5A4B" stroke-opacity="0.5"/>
+  <text x="20" y="846" fill="#CBB8A8" font-size="14" font-weight="700" font-family="Arial, sans-serif" letter-spacing="2">YOU</text>
+  <text x="68" y="882" fill="#F3F4F6" font-size="17" font-family="Arial, sans-serif">Account</text>
+
+  <rect x="300" width="1300" height="74" fill="url(#topbar)"/>
+  <circle cx="390" cy="38" r="28" fill="#FFF8EB"/>
+  <circle cx="390" cy="38" r="16" fill="#C2410C"/>
+  <circle cx="390" cy="38" r="6" fill="#F8FAFC"/>
+  <text x="438" y="35" fill="#EADBC7" font-size="14" font-family="Arial, sans-serif" letter-spacing="4">REDEEMED GOSPEL CHURCH</text>
+  <text x="438" y="67" fill="#FFFFFF" font-size="22" font-family="Georgia, serif">Inc. Tanzania</text>
+  <rect x="1402" y="16" width="118" height="44" rx="22" fill="#5A241B" stroke="#7C3B2A"/>
+  <circle cx="1440" cy="38" r="20" fill="#8F5C12"/>
+  <text x="1429" y="44" fill="#FDE68A" font-size="16" font-weight="700" font-family="Arial, sans-serif">EN</text>
+  <text x="1488" y="44" fill="#F3F4F6" font-size="16" font-weight="700" font-family="Arial, sans-serif">SW</text>
+
+  <rect x="340" y="88" width="1210" height="278" rx="40" fill="url(#hero)"/>
+  <rect x="392" y="140" width="338" height="50" rx="25" fill="#D6C7CF"/>
+  <circle cx="422" cy="165" r="8" fill="#FACC15"/>
+  <text x="446" y="171" fill="#991B1B" font-size="14" font-weight="700" font-family="Arial, sans-serif" letter-spacing="3">CHURCH OVERVIEW</text>
+  <text x="392" y="250" fill="#FFFFFF" font-size="68" font-family="Georgia, serif">Super Admin Home</text>
+  <text x="392" y="316" fill="#F8FAFC" font-size="18" font-family="Arial, sans-serif">Welcome back. Start with a calm view of the church, then move into the page you need.</text>
+  <rect x="392" y="356" width="160" height="56" rx="28" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.15"/>
+  <rect x="570" y="356" width="192" height="56" rx="28" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.15"/>
+  <rect x="780" y="356" width="148" height="56" rx="28" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.15"/>
+  <text x="423" y="391" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Arial, sans-serif">AT A GLANCE</text>
+  <text x="603" y="391" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Arial, sans-serif">QUICK ACTIONS</text>
+  <text x="816" y="391" fill="#FFFFFF" font-size="16" font-weight="700" font-family="Arial, sans-serif">UPDATES</text>
+
+  <rect x="340" y="418" width="1210" height="286" rx="36" fill="url(#cardWarm)" stroke="#F1D3C7"/>
+  <rect x="382" y="460" width="196" height="46" rx="23" fill="#FFF8F5" stroke="#F4C9B8"/>
+  <circle cx="410" cy="483" r="8" fill="#FACC15"/>
+  <text x="432" y="489" fill="#B91C1C" font-size="14" font-weight="700" font-family="Arial, sans-serif" letter-spacing="3">WELCOME</text>
+  <text x="382" y="590" fill="#1F1B16" font-size="58" font-family="Georgia, serif">Welcome to church oversight</text>
+  <text x="382" y="652" fill="#57534E" font-size="18" font-family="Arial, sans-serif">Begin here, then continue into users, branches, giving, or announcements as needed.</text>
+  <text x="408" y="740" fill="#2A211A" font-size="18" font-weight="700" font-family="Arial, sans-serif">"Whatever you do, work heartily, as for the Lord."</text>
+  <text x="408" y="780" fill="#9F3B2A" font-size="16" font-weight="700" font-family="Arial, sans-serif">COLOSSIANS 3:23</text>
+
+  <rect x="340" y="738" width="1210" height="132" rx="34" fill="url(#cardSoft)" stroke="#EFE1C0"/>
+  <rect x="382" y="760" width="220" height="42" rx="21" fill="#FFF8F5" stroke="#F4C9B8"/>
+  <circle cx="410" cy="781" r="8" fill="#FACC15"/>
+  <text x="432" y="787" fill="#B91C1C" font-size="14" font-weight="700" font-family="Arial, sans-serif" letter-spacing="3">CHURCH SUMMARY</text>
+  <text x="382" y="842" fill="#1F1B16" font-size="30" font-family="Georgia, serif">A calm headquarters summary.</text>
+
+  <rect x="1228" y="796" width="272" height="82" rx="41" fill="#991B1B"/>
+  <circle cx="1294" cy="837" r="30" fill="#B45309"/>
+  <text x="1288" y="844" fill="#FFFFFF" font-size="26" font-weight="700" font-family="Arial, sans-serif">?</text>
+  <text x="1352" y="826" fill="#FFFFFF" font-size="18" font-weight="700" font-family="Arial, sans-serif">RGC Assistant</text>
+  <text x="1352" y="853" fill="#FDE68A" font-size="14" font-family="Arial, sans-serif">Help and guidance</text>
+
+  <defs>
+    <linearGradient id="sidebar" x1="0" y1="0" x2="0" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D2418"/>
+      <stop offset="1" stop-color="#5A1212"/>
+    </linearGradient>
+    <linearGradient id="topbar" x1="300" y1="0" x2="1600" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B1711"/>
+      <stop offset="1" stop-color="#631010"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="340" y1="88" x2="1550" y2="366" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#221514"/>
+      <stop offset="0.6" stop-color="#651818"/>
+      <stop offset="1" stop-color="#A24813"/>
+    </linearGradient>
+    <linearGradient id="cardWarm" x1="340" y1="418" x2="1550" y2="704" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFEFC"/>
+      <stop offset="1" stop-color="#FFF5D8"/>
+    </linearGradient>
+    <linearGradient id="cardSoft" x1="340" y1="738" x2="1550" y2="870" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDFC"/>
+      <stop offset="1" stop-color="#FFF8E7"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,113 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="32" fill="#EEF2F7"/>
+  <rect width="308" height="900" fill="#13294B"/>
+
+  <rect x="28" y="42" width="54" height="54" rx="12" fill="#F8FAFC" fill-opacity="0.1"/>
+  <rect x="42" y="56" width="26" height="26" rx="6" fill="#F8FAFC"/>
+  <rect x="30" y="140" width="246" height="62" rx="14" fill="#284299"/>
+  <circle cx="56" cy="171" r="8" fill="#FFFFFF"/>
+  <text x="80" y="178" fill="#FFFFFF" font-size="20" font-family="Arial, sans-serif">Dashboard</text>
+  <circle cx="56" cy="256" r="8" fill="#F8FAFC"/>
+  <text x="80" y="263" fill="#E5E7EB" font-size="18" font-family="Arial, sans-serif">Employees</text>
+  <circle cx="56" cy="340" r="8" fill="#F8FAFC"/>
+  <text x="80" y="347" fill="#E5E7EB" font-size="18" font-family="Arial, sans-serif">Payroll</text>
+  <circle cx="56" cy="424" r="8" fill="#F8FAFC"/>
+  <text x="80" y="431" fill="#E5E7EB" font-size="18" font-family="Arial, sans-serif">Reports</text>
+  <circle cx="56" cy="508" r="8" fill="#F8FAFC"/>
+  <text x="80" y="515" fill="#E5E7EB" font-size="18" font-family="Arial, sans-serif">Compliance</text>
+  <circle cx="56" cy="592" r="8" fill="#F8FAFC"/>
+  <text x="80" y="599" fill="#E5E7EB" font-size="18" font-family="Arial, sans-serif">Attendance</text>
+  <circle cx="56" cy="676" r="8" fill="#F8FAFC"/>
+  <text x="80" y="683" fill="#E5E7EB" font-size="18" font-family="Arial, sans-serif">Employee Portal</text>
+  <circle cx="56" cy="760" r="8" fill="#F8FAFC"/>
+  <text x="80" y="767" fill="#E5E7EB" font-size="18" font-family="Arial, sans-serif">Settings</text>
+
+  <rect x="308" width="1292" height="108" fill="#FFFFFF"/>
+  <rect x="348" y="46" width="28" height="4" rx="2" fill="#475569"/>
+  <rect x="348" y="58" width="28" height="4" rx="2" fill="#475569"/>
+  <rect x="348" y="70" width="28" height="4" rx="2" fill="#475569"/>
+  <text x="404" y="67" fill="#1E293B" font-size="46" font-weight="700" font-family="Arial, sans-serif">Dashboard</text>
+  <rect x="676" y="34" width="148" height="34" rx="17" fill="#D9F1FF"/>
+  <circle cx="700" cy="51" r="9" fill="#1E3A8A"/>
+  <text x="718" y="57" fill="#0F172A" font-size="16" font-weight="700" font-family="Arial, sans-serif">Premium Plan</text>
+  <text x="406" y="99" fill="#64748B" font-size="18" font-family="Arial, sans-serif">Manage employee records for March 2026</text>
+  <circle cx="1108" cy="58" r="10" fill="#94A3B8"/>
+  <text x="1140" y="66" fill="#475569" font-size="18" font-family="Arial, sans-serif">Friday, March 13, 2026</text>
+  <text x="1394" y="56" fill="#1E293B" font-size="18" font-weight="700" font-family="Arial, sans-serif">Admin JAYFOUR</text>
+  <text x="1394" y="83" fill="#64748B" font-size="16" font-family="Arial, sans-serif">Admin</text>
+  <rect x="1528" y="50" width="20" height="20" rx="4" fill="#334155"/>
+
+  <rect x="346" y="146" width="286" height="216" rx="22" fill="#FFFFFF" stroke="#D7E0EA"/>
+  <rect x="660" y="146" width="286" height="216" rx="22" fill="#FFFFFF" stroke="#D7E0EA"/>
+  <rect x="974" y="146" width="286" height="216" rx="22" fill="#FFFFFF" stroke="#D7E0EA"/>
+  <rect x="1288" y="146" width="270" height="216" rx="22" fill="#FFFFFF" stroke="#D7E0EA"/>
+
+  <text x="378" y="202" fill="#475569" font-size="17" font-family="Arial, sans-serif">Total Employees</text>
+  <text x="378" y="272" fill="#1E293B" font-size="62" font-weight="700" font-family="Arial, sans-serif">10</text>
+  <path d="M378 315L390 303L402 315" stroke="#1D4ED8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="412" y="319" fill="#64748B" font-size="15" font-family="Arial, sans-serif">100% from last month</text>
+  <rect x="532" y="226" width="56" height="56" rx="14" fill="#DCEAFF"/>
+
+  <text x="692" y="202" fill="#475569" font-size="17" font-family="Arial, sans-serif">Monthly Payroll</text>
+  <text x="692" y="255" fill="#1E293B" font-size="32" font-weight="700" font-family="Arial, sans-serif">TZS</text>
+  <text x="692" y="310" fill="#1E293B" font-size="58" font-weight="700" font-family="Arial, sans-serif">63,200,000</text>
+  <path d="M692 345L704 333L716 345" stroke="#1D4ED8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="726" y="349" fill="#64748B" font-size="15" font-family="Arial, sans-serif">100% from last month</text>
+  <rect x="884" y="214" width="44" height="74" rx="14" fill="#E9DDFF"/>
+
+  <text x="1006" y="202" fill="#475569" font-size="17" font-family="Arial, sans-serif">Payslips</text>
+  <text x="1006" y="229" fill="#475569" font-size="17" font-family="Arial, sans-serif">Generated</text>
+  <text x="1006" y="292" fill="#1E293B" font-size="58" font-weight="700" font-family="Arial, sans-serif">10</text>
+  <text x="1006" y="338" fill="#64748B" font-size="15" font-family="Arial, sans-serif">All employees</text>
+  <text x="1006" y="362" fill="#64748B" font-size="15" font-family="Arial, sans-serif">processed</text>
+  <rect x="1174" y="220" width="56" height="56" rx="14" fill="#CCF5FF"/>
+
+  <text x="1320" y="202" fill="#475569" font-size="17" font-family="Arial, sans-serif">Pending Tasks</text>
+  <text x="1320" y="292" fill="#D97706" font-size="58" font-weight="700" font-family="Arial, sans-serif">2</text>
+  <text x="1320" y="338" fill="#64748B" font-size="15" font-family="Arial, sans-serif">To be completed</text>
+  <rect x="1482" y="204" width="62" height="62" rx="16" fill="#FFF0C8"/>
+
+  <text x="346" y="436" fill="#334155" font-size="18" font-weight="700" font-family="Arial, sans-serif">Quick Actions</text>
+  <rect x="346" y="474" width="286" height="196" rx="20" fill="#FFFFFF" stroke="#D7E0EA"/>
+  <rect x="660" y="474" width="286" height="196" rx="20" fill="#FFFFFF" stroke="#D7E0EA"/>
+  <rect x="974" y="474" width="286" height="196" rx="20" fill="#FFFFFF" stroke="#D7E0EA"/>
+  <rect x="1288" y="474" width="270" height="196" rx="20" fill="#FFFFFF" stroke="#D7E0EA"/>
+  <rect x="380" y="518" width="46" height="46" rx="12" fill="#DDEAFF"/>
+  <rect x="694" y="518" width="46" height="46" rx="12" fill="#ECE0FF"/>
+  <rect x="1008" y="518" width="46" height="46" rx="12" fill="#CFF5FF"/>
+  <rect x="1322" y="518" width="46" height="46" rx="12" fill="#FFF0C8"/>
+  <text x="448" y="536" fill="#1E293B" font-size="22" font-weight="700" font-family="Arial, sans-serif">Add Employee</text>
+  <text x="448" y="577" fill="#64748B" font-size="16" font-family="Arial, sans-serif">Register new</text>
+  <text x="448" y="601" fill="#64748B" font-size="16" font-family="Arial, sans-serif">employee</text>
+  <text x="762" y="536" fill="#1E293B" font-size="22" font-weight="700" font-family="Arial, sans-serif">Run Payroll</text>
+  <text x="762" y="577" fill="#64748B" font-size="16" font-family="Arial, sans-serif">Process salary</text>
+  <text x="762" y="601" fill="#64748B" font-size="16" font-family="Arial, sans-serif">payments</text>
+  <text x="1076" y="536" fill="#1E293B" font-size="22" font-weight="700" font-family="Arial, sans-serif">Generate</text>
+  <text x="1076" y="568" fill="#1E293B" font-size="22" font-weight="700" font-family="Arial, sans-serif">Payslip</text>
+  <text x="1076" y="609" fill="#64748B" font-size="16" font-family="Arial, sans-serif">Individual</text>
+  <text x="1076" y="633" fill="#64748B" font-size="16" font-family="Arial, sans-serif">payslip</text>
+  <text x="1390" y="536" fill="#1E293B" font-size="22" font-weight="700" font-family="Arial, sans-serif">Add</text>
+  <text x="1390" y="568" fill="#1E293B" font-size="22" font-weight="700" font-family="Arial, sans-serif">Compliance</text>
+  <text x="1390" y="600" fill="#1E293B" font-size="22" font-weight="700" font-family="Arial, sans-serif">Task</text>
+  <text x="1390" y="641" fill="#64748B" font-size="16" font-family="Arial, sans-serif">Tax and statutory</text>
+
+  <rect x="346" y="698" width="784" height="174" rx="24" fill="#FFFFFF" stroke="#D7E0EA"/>
+  <text x="382" y="748" fill="#334155" font-size="18" font-weight="700" font-family="Arial, sans-serif">Payroll Overview</text>
+  <rect x="894" y="722" width="128" height="38" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="920" y="747" fill="#0F172A" font-size="16" font-family="Arial, sans-serif">Last 6 Months</text>
+  <line x1="430" y1="822" x2="1082" y2="822" stroke="#CBD5E1"/>
+  <line x1="430" y1="782" x2="1082" y2="782" stroke="#E2E8F0"/>
+  <line x1="430" y1="742" x2="1082" y2="742" stroke="#E2E8F0"/>
+  <path d="M452 818C540 818 610 818 686 818C760 818 840 818 920 818C980 818 1030 770 1080 690" stroke="#10B981" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="1080" cy="690" r="8" fill="#10B981"/>
+
+  <rect x="1160" y="698" width="398" height="174" rx="24" fill="#FFFFFF" stroke="#D7E0EA"/>
+  <text x="1196" y="748" fill="#334155" font-size="18" font-weight="700" font-family="Arial, sans-serif">Recent Payslips</text>
+  <text x="1476" y="748" fill="#1D4ED8" font-size="16" font-family="Arial, sans-serif">View All</text>
+  <rect x="1198" y="784" width="42" height="42" rx="10" fill="#CCF5FF"/>
+  <text x="1262" y="802" fill="#1E293B" font-size="17" font-weight="700" font-family="Arial, sans-serif">Admin User</text>
+  <text x="1450" y="802" fill="#1E40AF" font-size="16" font-weight="700" font-family="Arial, sans-serif">TZS</text>
+  <text x="1432" y="830" fill="#1E40AF" font-size="16" font-weight="700" font-family="Arial, sans-serif">8,700,000</text>
+  <text x="1262" y="832" fill="#64748B" font-size="15" font-family="Arial, sans-serif">Operations •</text>
+  <text x="1262" y="856" fill="#64748B" font-size="15" font-family="Arial, sans-serif">System Administrator</text>
+</svg>

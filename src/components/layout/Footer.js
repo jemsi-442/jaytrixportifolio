@@ -1,4 +1,5 @@
 import { profile, navLinks } from "@/lib/data";
+import Button from "@/components/ui/Button";
 import { GithubIcon, LinkedinIcon, MailIcon, WhatsAppIcon } from "@/components/icons";
 
 export default function Footer() {
@@ -19,6 +20,11 @@ export default function Footer() {
             <p className="mt-3 text-foreground-secondary text-sm leading-relaxed max-w-xs">
               {profile.tagline}
             </p>
+            <div className="mt-5">
+              <Button href="#projects" size="sm">
+                View Systems
+              </Button>
+            </div>
           </div>
 
           {/* Quick links */}
@@ -86,7 +92,8 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-border flex items-center justify-center">
           <p className="text-sm text-foreground-muted">
-            &copy; {new Date().getFullYear()} {profile.name}. All rights
+            &copy; <span suppressHydrationWarning>{new Date().getFullYear()}</span>{" "}
+            {profile.name}. All rights
             reserved.
           </p>
         </div>

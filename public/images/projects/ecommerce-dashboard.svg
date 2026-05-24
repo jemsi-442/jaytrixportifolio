@@ -1,0 +1,170 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="32" fill="#F2F6FB"/>
+  <rect width="292" height="900" fill="url(#sidebar)"/>
+  <line x1="292.5" y1="0" x2="292.5" y2="900" stroke="#2A3856"/>
+
+  <text x="26" y="54" fill="#F9D7A8" font-size="16" font-weight="700" font-family="Arial, sans-serif" letter-spacing="4">SELLER &amp; SHOPPER HUB</text>
+  <text x="26" y="106" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Arial, sans-serif">Ecommerce</text>
+  <text x="172" y="106" fill="#FFB45E" font-size="24" font-weight="700" font-family="Arial, sans-serif">Marketplace</text>
+  <text x="26" y="138" fill="#94A3B8" font-size="16" font-family="Arial, sans-serif">Commerce Hub</text>
+
+  <rect x="18" y="192" width="258" height="60" rx="18" fill="#3A313A" stroke="#8B6A48"/>
+  <circle cx="44" cy="222" r="10" fill="#F8FAFC"/>
+  <text x="66" y="228" fill="#FFF5E9" font-size="18" font-family="Arial, sans-serif">Marketplace Home</text>
+  <circle cx="44" cy="306" r="10" fill="#CBD5E1"/>
+  <text x="66" y="312" fill="#E2E8F0" font-size="18" font-family="Arial, sans-serif">Catalog</text>
+  <circle cx="44" cy="390" r="10" fill="#CBD5E1"/>
+  <text x="66" y="396" fill="#E2E8F0" font-size="18" font-family="Arial, sans-serif">Sales</text>
+  <circle cx="44" cy="474" r="10" fill="#CBD5E1"/>
+  <text x="66" y="480" fill="#E2E8F0" font-size="18" font-family="Arial, sans-serif">Delivery Issues</text>
+  <circle cx="44" cy="558" r="10" fill="#CBD5E1"/>
+  <text x="66" y="564" fill="#E2E8F0" font-size="18" font-family="Arial, sans-serif">Customers</text>
+  <circle cx="44" cy="642" r="10" fill="#CBD5E1"/>
+  <text x="66" y="648" fill="#E2E8F0" font-size="18" font-family="Arial, sans-serif">Updates</text>
+  <circle cx="44" cy="726" r="10" fill="#CBD5E1"/>
+  <text x="66" y="732" fill="#E2E8F0" font-size="18" font-family="Arial, sans-serif">Vendor Settlements</text>
+  <circle cx="44" cy="858" r="10" fill="#CBD5E1"/>
+  <text x="66" y="864" fill="#E2E8F0" font-size="18" font-family="Arial, sans-serif">Sign out</text>
+
+  <rect x="292" width="1308" height="76" fill="#FFFFFF"/>
+  <text x="318" y="44" fill="#6B7A90" font-size="14" font-family="Arial, sans-serif" letter-spacing="4">MARKETPLACE CONSOLE</text>
+  <text x="318" y="74" fill="#111827" font-size="22" font-weight="700" font-family="Arial, sans-serif">Commerce Overview</text>
+  <rect x="498" y="44" width="148" height="34" rx="17" fill="#F8FAFC" stroke="#D7E2EE"/>
+  <text x="516" y="66" fill="#7A8AA3" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">LIVE OPERATIONS</text>
+  <circle cx="1266" cy="38" r="20" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <circle cx="1338" cy="38" r="22" fill="#A1621B"/>
+  <text x="1331" y="45" fill="#FFFFFF" font-size="18" font-weight="700" font-family="Arial, sans-serif">R</text>
+  <rect x="1310" y="14" width="190" height="48" rx="24" fill="#FFF7ED" stroke="#F4E2C9"/>
+  <text x="1368" y="30" fill="#A0AEC0" font-size="12" font-family="Arial, sans-serif" letter-spacing="3">SIGNED IN</text>
+  <text x="1368" y="52" fill="#111827" font-size="16" font-weight="700" font-family="Arial, sans-serif">Ramla Admin</text>
+  <text x="1534" y="44" fill="#475569" font-size="16" font-family="Arial, sans-serif">Sign out</text>
+
+  <rect x="316" y="106" width="1280" height="744" rx="28" fill="#F5F8FC" stroke="#D7E2EE"/>
+
+  <rect x="318" y="152" width="314" height="120" rx="26" fill="url(#metricBlue)" stroke="#D7E2EE"/>
+  <text x="340" y="190" fill="#6E7D96" font-size="14" font-family="Arial, sans-serif" letter-spacing="4">SALES THIS MONTH</text>
+  <text x="340" y="242" fill="#111827" font-size="28" font-weight="700" font-family="Arial, sans-serif">Tsh 0</text>
+  <text x="340" y="290" fill="#6E7D96" font-size="16" font-family="Arial, sans-serif">Live marketplace signal</text>
+  <rect x="556" y="186" width="54" height="54" rx="18" fill="#FFFFFF" fill-opacity="0.86"/>
+
+  <rect x="648" y="152" width="314" height="120" rx="26" fill="#FFFFFF" stroke="#D7E2EE"/>
+  <text x="670" y="190" fill="#6E7D96" font-size="14" font-family="Arial, sans-serif" letter-spacing="4">ORDERS SO FAR</text>
+  <text x="670" y="242" fill="#111827" font-size="28" font-weight="700" font-family="Arial, sans-serif">0</text>
+  <text x="670" y="290" fill="#6E7D96" font-size="16" font-family="Arial, sans-serif">Live marketplace signal</text>
+  <rect x="886" y="186" width="54" height="54" rx="18" fill="#F8FAFC"/>
+
+  <rect x="978" y="152" width="314" height="120" rx="26" fill="url(#metricWarm)" stroke="#F0C58D"/>
+  <text x="1000" y="190" fill="#6F5A44" font-size="14" font-family="Arial, sans-serif" letter-spacing="4">ORDERS TO PREPARE</text>
+  <text x="1000" y="242" fill="#111827" font-size="28" font-weight="700" font-family="Arial, sans-serif">0</text>
+  <text x="1000" y="290" fill="#6E7D96" font-size="16" font-family="Arial, sans-serif">Live marketplace signal</text>
+  <rect x="1216" y="186" width="54" height="54" rx="18" fill="#FFFFFF" fill-opacity="0.8"/>
+
+  <rect x="1308" y="152" width="270" height="120" rx="26" fill="#FFFFFF" stroke="#D7E2EE"/>
+  <text x="1330" y="190" fill="#6E7D96" font-size="14" font-family="Arial, sans-serif" letter-spacing="4">PEOPLE ON THE PLATFORM</text>
+  <text x="1330" y="242" fill="#111827" font-size="28" font-weight="700" font-family="Arial, sans-serif">5</text>
+  <text x="1330" y="290" fill="#6E7D96" font-size="16" font-family="Arial, sans-serif">Live marketplace signal</text>
+  <rect x="1504" y="186" width="54" height="54" rx="18" fill="#F8FAFC"/>
+
+  <rect x="318" y="306" width="808" height="496" rx="34" fill="url(#mainPanel)" stroke="#25344D"/>
+  <rect x="342" y="330" width="176" height="34" rx="17" fill="#4B372A" stroke="#8B6A48"/>
+  <text x="360" y="352" fill="#F5D6B2" font-size="14" font-family="Arial, sans-serif" letter-spacing="4">SALES PERFORMANCE</text>
+  <rect x="528" y="330" width="118" height="34" rx="17" fill="#273447" stroke="#44556F"/>
+  <text x="544" y="352" fill="#DDE6F2" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">LAST 30 DAYS</text>
+  <rect x="656" y="330" width="208" height="34" rx="17" fill="#273447" stroke="#44556F"/>
+  <text x="672" y="352" fill="#DDE6F2" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">COMPARE PREVIOUS PERIOD</text>
+
+  <text x="342" y="420" fill="#FFFFFF" font-size="30" font-weight="700" font-family="Arial, sans-serif">Revenue and order activity in a clearer business view</text>
+  <text x="342" y="474" fill="#D7E2EE" font-size="17" font-family="Arial, sans-serif">See sales momentum, your normal daily average, and how this week compares with the</text>
+  <text x="342" y="506" fill="#D7E2EE" font-size="17" font-family="Arial, sans-serif">previous one in straightforward business language.</text>
+
+  <rect x="924" y="350" width="152" height="348" rx="28" fill="#2B3A4D" stroke="#465870"/>
+  <text x="944" y="382" fill="#A7B7CC" font-size="14" font-family="Arial, sans-serif" letter-spacing="3">QUICK READ</text>
+  <rect x="944" y="412" width="112" height="86" rx="18" fill="#303F54" stroke="#47586F"/>
+  <text x="958" y="442" fill="#F8FAFC" font-size="14" font-weight="700" font-family="Arial, sans-serif">Daily</text>
+  <text x="958" y="464" fill="#F8FAFC" font-size="14" font-weight="700" font-family="Arial, sans-serif">average</text>
+  <text x="1030" y="452" fill="#FFCC84" font-size="20" font-weight="700" font-family="Arial, sans-serif">Tsh</text>
+  <text x="1030" y="476" fill="#FFCC84" font-size="20" font-weight="700" font-family="Arial, sans-serif">0</text>
+  <text x="958" y="486" fill="#8EA0B8" font-size="12" font-family="Arial, sans-serif">0 selling days</text>
+  <rect x="944" y="516" width="112" height="96" rx="18" fill="#303F54" stroke="#47586F"/>
+  <text x="958" y="548" fill="#F8FAFC" font-size="14" font-weight="700" font-family="Arial, sans-serif">Sales</text>
+  <text x="958" y="570" fill="#F8FAFC" font-size="14" font-weight="700" font-family="Arial, sans-serif">change</text>
+  <text x="1030" y="562" fill="#FFCC84" font-size="20" font-weight="700" font-family="Arial, sans-serif">0.0%</text>
+  <text x="958" y="592" fill="#8EA0B8" font-size="12" font-family="Arial, sans-serif">0 orders in the last 7</text>
+  <text x="958" y="608" fill="#8EA0B8" font-size="12" font-family="Arial, sans-serif">days</text>
+  <rect x="944" y="628" width="112" height="96" rx="18" fill="#303F54" stroke="#47586F"/>
+  <text x="958" y="660" fill="#F8FAFC" font-size="14" font-weight="700" font-family="Arial, sans-serif">Order</text>
+  <text x="958" y="682" fill="#F8FAFC" font-size="14" font-weight="700" font-family="Arial, sans-serif">change</text>
+  <text x="1030" y="674" fill="#FFCC84" font-size="20" font-weight="700" font-family="Arial, sans-serif">0.0%</text>
+  <text x="958" y="696" fill="#8EA0B8" font-size="12" font-family="Arial, sans-serif">last 7 days versus the</text>
+  <text x="958" y="712" fill="#8EA0B8" font-size="12" font-family="Arial, sans-serif">previous 7 days</text>
+
+  <rect x="342" y="726" width="172" height="106" rx="22" fill="#24384F" stroke="#41536D"/>
+  <rect x="526" y="726" width="172" height="106" rx="22" fill="#24384F" stroke="#41536D"/>
+  <rect x="710" y="726" width="172" height="106" rx="22" fill="#24384F" stroke="#41536D"/>
+  <rect x="894" y="726" width="172" height="106" rx="22" fill="#24384F" stroke="#41536D"/>
+  <text x="360" y="758" fill="#98A9BF" font-size="12" font-family="Arial, sans-serif" letter-spacing="3">TOTAL SALES</text>
+  <text x="360" y="800" fill="#FFFFFF" font-size="22" font-weight="700" font-family="Arial, sans-serif">Tsh 0</text>
+  <text x="544" y="758" fill="#98A9BF" font-size="12" font-family="Arial, sans-serif" letter-spacing="3">AVERAGE PER DAY</text>
+  <text x="544" y="800" fill="#FFB45E" font-size="22" font-weight="700" font-family="Arial, sans-serif">Tsh 0</text>
+  <text x="728" y="758" fill="#98A9BF" font-size="12" font-family="Arial, sans-serif" letter-spacing="3">AVERAGE ORDER VALUE</text>
+  <text x="728" y="800" fill="#FFFFFF" font-size="22" font-weight="700" font-family="Arial, sans-serif">Tsh 0</text>
+  <text x="912" y="758" fill="#98A9BF" font-size="12" font-family="Arial, sans-serif" letter-spacing="3">BEST DAY</text>
+  <text x="912" y="800" fill="#FFCC84" font-size="22" font-weight="700" font-family="Arial, sans-serif">Tsh 0</text>
+
+  <rect x="1146" y="306" width="432" height="496" rx="34" fill="url(#sidePanel)" stroke="#D7E2EE"/>
+  <text x="1170" y="350" fill="#A1AFC5" font-size="14" font-family="Arial, sans-serif" letter-spacing="4">ORDER BREAKDOWN</text>
+  <text x="1170" y="410" fill="#111827" font-size="30" font-weight="700" font-family="Arial, sans-serif">See where orders are sitting more clearly</text>
+  <text x="1170" y="474" fill="#64748B" font-size="17" font-family="Arial, sans-serif">A quick top summary, exact stage shares, and a short business</text>
+  <text x="1170" y="506" fill="#64748B" font-size="17" font-family="Arial, sans-serif">takeaway below.</text>
+
+  <rect x="1170" y="548" width="170" height="126" rx="22" fill="#FFFFFF" stroke="#D7E2EE"/>
+  <rect x="1354" y="548" width="198" height="126" rx="22" fill="#FFFFFF" stroke="#D7E2EE"/>
+  <text x="1190" y="582" fill="#9AA9BF" font-size="12" font-family="Arial, sans-serif" letter-spacing="4">TOTAL ORDERS</text>
+  <text x="1190" y="626" fill="#111827" font-size="24" font-weight="700" font-family="Arial, sans-serif">0</text>
+  <text x="1190" y="674" fill="#64748B" font-size="15" font-family="Arial, sans-serif">0 active stages in the current</text>
+  <text x="1190" y="696" fill="#64748B" font-size="15" font-family="Arial, sans-serif">mix</text>
+  <text x="1374" y="582" fill="#9AA9BF" font-size="12" font-family="Arial, sans-serif" letter-spacing="4">LEADING SHARE</text>
+  <text x="1374" y="626" fill="#111827" font-size="24" font-weight="700" font-family="Arial, sans-serif">0%</text>
+  <text x="1374" y="674" fill="#64748B" font-size="15" font-family="Arial, sans-serif">Waiting for more order volume</text>
+
+  <rect x="1170" y="700" width="382" height="226" rx="28" fill="#141C31"/>
+  <text x="1260" y="714" fill="#A8B6C9" font-size="12" font-family="Arial, sans-serif" letter-spacing="4">ORDER</text>
+  <text x="1228" y="732" fill="#A8B6C9" font-size="12" font-family="Arial, sans-serif" letter-spacing="4">BREAKDOWN</text>
+  <rect x="1190" y="720" width="170" height="182" rx="24" fill="#111827" stroke="#39445B" stroke-dasharray="4 6"/>
+  <text x="1246" y="770" fill="#FFFFFF" font-size="18" font-weight="700" font-family="Arial, sans-serif">Waiting for</text>
+  <text x="1226" y="806" fill="#FFFFFF" font-size="18" font-weight="700" font-family="Arial, sans-serif">enough order-</text>
+  <text x="1250" y="842" fill="#FFFFFF" font-size="18" font-weight="700" font-family="Arial, sans-serif">stage data</text>
+  <text x="1226" y="890" fill="#AAB8CC" font-size="14" font-family="Arial, sans-serif">As orders start</text>
+  <text x="1210" y="914" fill="#AAB8CC" font-size="14" font-family="Arial, sans-serif">spreading across</text>
+  <rect x="1380" y="772" width="148" height="146" rx="22" fill="#1F293F" stroke="#39445B" stroke-dasharray="4 6"/>
+  <text x="1404" y="818" fill="#AAB8CC" font-size="16" font-family="Arial, sans-serif">Order-stage mix will</text>
+  <text x="1404" y="850" fill="#AAB8CC" font-size="16" font-family="Arial, sans-serif">appear here as soon as</text>
+  <text x="1404" y="882" fill="#AAB8CC" font-size="16" font-family="Arial, sans-serif">the marketplace</text>
+
+  <rect x="292" y="850" width="1308" height="50" fill="#FBF6EE"/>
+  <text x="826" y="882" fill="#7B8AA3" font-size="16" font-family="Arial, sans-serif" letter-spacing="3">© 2026 Ecommerce. All rights reserved.</text>
+
+  <defs>
+    <linearGradient id="sidebar" x1="0" y1="0" x2="0" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111B39"/>
+      <stop offset="1" stop-color="#243045"/>
+    </linearGradient>
+    <linearGradient id="metricBlue" x1="318" y1="152" x2="632" y2="272" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF2FF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="metricWarm" x1="978" y1="152" x2="1292" y2="272" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE6C6"/>
+      <stop offset="1" stop-color="#FFF7EE"/>
+    </linearGradient>
+    <linearGradient id="mainPanel" x1="318" y1="306" x2="1126" y2="802" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A241F"/>
+      <stop offset="0.18" stop-color="#1C2B40"/>
+      <stop offset="1" stop-color="#102548"/>
+    </linearGradient>
+    <linearGradient id="sidePanel" x1="1146" y1="306" x2="1578" y2="802" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8EF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+</svg>
