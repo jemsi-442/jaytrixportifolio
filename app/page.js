@@ -11,8 +11,11 @@ import Contact from "@/components/sections/Contact";
 export default function Home() {
   return (
     <>
+      <a href="#main-content" className="skip-link">
+        Skip to content
+      </a>
       <Navbar />
-      <main>
+      <main id="main-content" aria-label="JayTrix Systems portfolio" tabIndex={-1}>
         <Hero />
         <About />
         <Skills />

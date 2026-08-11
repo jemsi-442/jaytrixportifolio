@@ -36,6 +36,19 @@ export default function Navbar() {
     return () => { document.body.style.overflow = ""; };
   }, [mobileOpen]);
 
+  useEffect(() => {
+    if (!mobileOpen) return undefined;
+
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") {
+        setMobileOpen(false);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [mobileOpen]);
+
   return (
     <header
       className={cn(
@@ -74,6 +87,7 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
+                aria-current={activeId === id ? "page" : undefined}
                 className={cn(
                   "px-3 py-2 text-sm font-medium rounded-lg transition-all duration-200",
                   activeId === id
@@ -93,6 +107,8 @@ export default function Navbar() {
             onClick={() => setMobileOpen(!mobileOpen)}
             className="p-2 text-foreground-secondary hover:text-accent transition-colors cursor-pointer"
             aria-label="Toggle menu"
+            aria-expanded={mobileOpen}
+            aria-controls="mobile-navigation"
           >
             {mobileOpen ? <XIcon size={24} /> : <MenuIcon size={24} />}
           </button>
@@ -101,6 +117,10 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div
+        id="mobile-navigation"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Mobile navigation"
         className={cn(
           "md:hidden fixed inset-0 top-16 z-40 transition-all duration-300",
           mobileOpen
@@ -138,11 +158,12 @@ export default function Navbar() {
                 <a
                   key={link.href}
                   href={link.href}
+                  aria-current={activeId === id ? "page" : undefined}
                   onClick={() => setMobileOpen(false)}
                   className={cn(
-                    "px-4 py-3 text-base font-medium rounded-xl transition-all duration-200",
+                    "relative px-4 py-3 text-base font-medium rounded-xl transition-all duration-200",
                     activeId === id
-                      ? "text-accent bg-accent/10"
+                      ? "text-accent bg-accent/10 pl-6 before:absolute before:left-3 before:top-1/2 before:h-6 before:w-1 before:-translate-y-1/2 before:rounded-full before:bg-accent"
                       : "text-foreground-secondary hover:text-foreground hover:bg-background"
                   )}
                 >

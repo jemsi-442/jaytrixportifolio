@@ -62,6 +62,27 @@ html {
   scroll-padding-top: 90px;
 }
 
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 100;
+  transform: translateY(-160%);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent);
+  color: white;
+  padding: 0.65rem 1rem;
+  font-weight: 600;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: 2px solid var(--accent-dark);
+  outline-offset: 3px;
+}
+
 .hero-grid {
   background-image:
     linear-gradient(rgba(7, 58, 133, 0.07) 1px, transparent 1px),

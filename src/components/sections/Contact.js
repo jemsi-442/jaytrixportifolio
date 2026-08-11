@@ -10,6 +10,7 @@ import {
   PhoneIcon,
   MapPinIcon,
   SendIcon,
+  LinkedinIcon,
   WhatsAppIcon,
   YouTubeIcon,
 } from "@/components/icons";
@@ -84,6 +85,28 @@ export default function Contact() {
       href: null,
     },
   ];
+  const quickActions = [
+    {
+      label: "Email",
+      href: `mailto:${profile.email}`,
+      icon: MailIcon,
+    },
+    {
+      label: "WhatsApp",
+      href: profile.social.whatsapp,
+      icon: WhatsAppIcon,
+    },
+    {
+      label: "LinkedIn",
+      href: profile.social.linkedin,
+      icon: LinkedinIcon,
+    },
+    {
+      label: "YouTube",
+      href: profile.social.youtube,
+      icon: YouTubeIcon,
+    },
+  ];
 
   return (
     <section id="contact" className="py-20 md:py-28 bg-background-secondary">
@@ -108,6 +131,25 @@ export default function Contact() {
                 long-term maintainability matter. Reach out through the channel
                 that feels easiest for you.
               </p>
+
+              <div className="mb-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
+                {quickActions.map((action) => {
+                  const Icon = action.icon;
+
+                  return (
+                    <a
+                      key={action.label}
+                      href={action.href}
+                      target={action.href.startsWith("http") ? "_blank" : undefined}
+                      rel={action.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                      className="flex flex-col items-center justify-center gap-2 rounded-2xl border border-border bg-surface/70 px-3 py-4 text-sm font-medium text-foreground-secondary transition-all duration-200 hover:border-accent/40 hover:text-accent hover:shadow-lg hover:shadow-accent-glow"
+                    >
+                      <Icon size={22} />
+                      <span>{action.label}</span>
+                    </a>
+                  );
+                })}
+              </div>
 
               <div className="mb-8 rounded-[1.75rem] border border-border bg-surface/50 p-5">
                 <div className="text-[11px] font-mono uppercase tracking-[0.24em] text-accent">

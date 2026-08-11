@@ -37,6 +37,9 @@ export default function Footer() {
             <p className="mt-3 text-foreground-secondary text-sm leading-relaxed max-w-xs">
               {profile.tagline}
             </p>
+            <p className="mt-3 text-[10px] font-semibold uppercase tracking-[0.22em] text-accent">
+              Technology | Innovation | Excellence
+            </p>
             <div className="mt-5">
               <Button href="#projects" size="sm">
                 View Systems

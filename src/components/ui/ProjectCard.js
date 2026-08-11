@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Badge from "./Badge";
-import { ExternalLinkIcon, GithubIcon } from "@/components/icons";
+import { ExternalLinkIcon, GithubIcon, LockIcon } from "@/components/icons";
 
 function getPreviewTone(title, category) {
   const key = `${title} ${category}`.toLowerCase();
@@ -124,6 +124,7 @@ export default function ProjectCard({
   const previewItems = [...highlights, ...tags].slice(0, 3);
   const [imageFailed, setImageFailed] = useState(false);
   const showImage = image && !imageFailed;
+  const isPrivate = !sourceUrl && Boolean(repoNote);
 
   return (
     <div className="group relative flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-border bg-surface/60 backdrop-blur-sm transition-all duration-300 hover:-translate-y-2 hover:border-accent/50 hover:shadow-xl hover:shadow-accent-glow">
@@ -234,7 +235,8 @@ export default function ProjectCard({
         <div className="absolute inset-x-0 bottom-0 h-20 bg-linear-to-t from-background/80 via-background/20 to-transparent" />
         <div className="absolute inset-x-0 top-0 flex items-start justify-between gap-3 p-4">
           {status && (
-            <span className="rounded-full border border-accent/30 bg-background/70 px-3 py-1 text-[11px] font-mono uppercase tracking-[0.2em] text-accent backdrop-blur-md">
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-accent/30 bg-background/70 px-3 py-1 text-[11px] font-mono uppercase tracking-[0.2em] text-accent backdrop-blur-md">
+              {isPrivate && <LockIcon size={12} />}
               {status}
             </span>
           )}
@@ -340,8 +342,8 @@ export default function ProjectCard({
             </a>
           )}
           {!sourceUrl && repoNote && (
-            <span className="inline-flex items-center gap-1.5 text-sm text-foreground-muted">
-              <GithubIcon size={16} />
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-border bg-background/70 px-3 py-1.5 text-sm text-foreground-muted">
+              <LockIcon size={15} />
               <span>{repoNote}</span>
             </span>
           )}

@@ -45,13 +45,22 @@ export const metadata = {
     title: `JayTrix Systems | ${profile.title}`,
     description: `${profile.tagline} Based in ${profile.location}.`,
     siteName: "JayTrix Systems",
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "JayTrix Systems portfolio preview",
+      },
+    ],
     type: "website",
     locale: "en_US",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: `JayTrix Systems | ${profile.title}`,
     description: `${profile.tagline} Based in ${profile.location}.`,
+    images: ["/og-image.svg"],
   },
   icons: {
     icon: "/icon.svg",
@@ -63,10 +72,41 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   const bodyClass = `${poppins.variable} ${inter.variable} antialiased bg-background text-foreground`;
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: profile.name,
+    alternateName: "JayTrix Systems",
+    jobTitle: profile.title,
+    email: profile.email,
+    telephone: profile.phone,
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: profile.location,
+    },
+    knowsAbout: [
+      "Software Architecture",
+      "Role-Based Access Control",
+      "Linux Administration",
+      "Cybersecurity",
+      "Penetration Testing",
+      "API Security",
+    ],
+    sameAs: [
+      profile.social.github,
+      profile.social.linkedin,
+      profile.social.youtube,
+      profile.social.whatsapp,
+    ],
+  };
 
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={bodyClass} suppressHydrationWarning>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
         {children}
       </body>
     </html>
