@@ -39,9 +39,11 @@ export default function Education() {
                       <h3 className="text-lg md:text-xl font-bold text-foreground">
                         {item.title}
                       </h3>
-                      <span className="inline-flex w-fit rounded-full border border-accent/20 bg-accent/10 px-3 py-1 text-sm text-accent">
-                        {item.year}
-                      </span>
+                      {item.year && (
+                        <span className="inline-flex w-fit rounded-full border border-accent/20 bg-accent/10 px-3 py-1 text-sm text-accent">
+                          {item.year}
+                        </span>
+                      )}
                     </div>
                     <p className="text-foreground-secondary text-sm md:text-base mt-1.5 font-medium">
                       {item.institution}

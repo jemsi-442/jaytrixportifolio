@@ -49,8 +49,8 @@ export const profile = {
   ],
   social: {
     github: "https://github.com/jemsi-442",
-    linkedin:
-      "https://www.linkedin.com/in/jemsi-pallangyo-74202a320",
+    linkedin: "https://www.linkedin.com/in/jaytrix-systems-74202a320/",
+    youtube: "https://youtube.com/@jaytrixsystems442tx?si=7EFpHHiENBY2tuiD",
     whatsapp: "https://wa.me/255683186987",
   },
   profileImage: "/images/profile.jpg?v=20260524",
@@ -113,15 +113,38 @@ export const skills = {
   },
   devops: {
     title: "Dev Environment & Workflow",
-    emphasis: "Execution Layer",
+    emphasis: "Infrastructure Layer",
     summary:
-      "Working comfortably in Linux-based engineering environments with practical deployment and workflow discipline.",
+      "Working comfortably in Linux-based environments with practical server administration, deployment, and operational discipline.",
     items: [
       "Linux",
+      "Linux Server Administration",
+      "Shell Scripting",
       "Git & GitHub",
+      "Systemd Services",
+      "Firewall Configuration",
+      "Nginx",
+      "Log Analysis",
+      "Backups & Monitoring",
       "Vercel Deployment",
       "Environment Configuration",
       "Basic CI/CD Concepts",
+    ],
+  },
+  security: {
+    title: "Cybersecurity & Penetration Testing",
+    emphasis: "Security Layer",
+    summary:
+      "Assessing applications and environments through ethical testing, secure configuration review, and practical hardening recommendations.",
+    items: [
+      "Penetration Testing",
+      "Vulnerability Assessment",
+      "Reconnaissance",
+      "Web Application Security",
+      "Authentication Testing",
+      "Access Control Review",
+      "Secure Configuration",
+      "Security Reporting",
     ],
   },
 };
@@ -166,7 +189,7 @@ export const education = [
     focus: ["Operational workflows", "Payroll logic", "Structured administration"],
   },
   {
-    year: "2024 - Present",
+    year: "",
     title: "Bachelor of Business Administration (BBA)",
     institution: "Tanzania Institute of Accountancy (TIA)",
     description:
@@ -181,13 +204,43 @@ export const education = [
       "Focused on clean architecture principles, secure software design patterns, scalable API structuring, and performance-oriented database modeling through hands-on system implementations.",
     focus: ["Clean architecture", "Secure APIs", "Performance-oriented modeling"],
   },
+  {
+    year: "Self-Driven",
+    title: "Linux Administrator",
+    institution: "Practical Linux Systems Administration",
+    description:
+      "Building strong Linux administration capability across server setup, user and permission management, shell operations, service control, package management, networking basics, firewall configuration, log analysis, process monitoring, backups, and secure production environment maintenance.",
+    focus: [
+      "Linux server administration",
+      "Shell scripting",
+      "Permissions & access control",
+      "Systemd services",
+      "Firewall & networking",
+      "Logs, backups & monitoring",
+    ],
+  },
+  {
+    year: "Self-Driven",
+    title: "Cybersecurity (Penetration Testing)",
+    institution: "Security Testing & Defensive Practice",
+    description:
+      "Developing cybersecurity skills focused on ethical penetration testing, vulnerability assessment, reconnaissance, web application security, authentication testing, secure configuration review, reporting, and practical hardening recommendations for real systems.",
+    focus: [
+      "Penetration testing",
+      "Vulnerability assessment",
+      "Web app security",
+      "Reconnaissance",
+      "Authentication testing",
+      "Security hardening",
+    ],
+  },
 ];
 
 export const projects = [
   {
     title: "RGC - Redeemed Gospel Church Inc. Tanzania Management Platform",
     category: "National church governance platform",
-    status: "Source Available",
+    status: "Private Repo",
     image: "/images/projects/rgc-system-dashboard.svg",
     imageAlt: "RGC System dashboard showing church administration overview, quick actions, and summary panels",
     role: "PHP platform engineering, governance workflow design, and access control structuring",
@@ -209,7 +262,10 @@ export const projects = [
       "Spatie Permission",
     ],
     liveUrl: null,
-    sourceUrl: "https://github.com/jemsi-442/rgc-system",
+    sourceUrl: null,
+    repoNote: "Private build",
+    privacyNote:
+      "Repository access is private due to organization scope; architecture, stack, and capabilities are documented here.",
   },
 
   {
@@ -266,7 +322,7 @@ export const projects = [
   {
     title: "Ecommerce Multi-Vendor Platform",
     category: "Marketplace and delivery operations",
-    status: "Source Available",
+    status: "Private Repo",
     image: "/images/projects/ecommerce-dashboard.svg",
     imageAlt: "Ecommerce admin dashboard showing marketplace metrics, sales overview, and order breakdown panels",
     role: "Marketplace workflow design, order-state logic, and delivery operations structuring",
@@ -289,7 +345,10 @@ export const projects = [
       "Cloudinary",
     ],
     liveUrl: null,
-    sourceUrl: "https://github.com/jemsi-442/ecommerce",
+    sourceUrl: null,
+    repoNote: "Private build",
+    privacyNote:
+      "Repository access is private due to platform scope; core architecture and workflow responsibilities are documented here.",
   },
 
   {
@@ -342,7 +401,9 @@ export const projects = [
     ],
     liveUrl: null,
     sourceUrl: null,
-    repoNote: "Private repository",
+    repoNote: "Private build",
+    privacyNote:
+      "Repository access is private due to transaction and platform scope; architecture and capabilities are documented here.",
   },
 ];
 

@@ -4,9 +4,9 @@ import { useEffect, useRef, useState } from "react";
 import { experience } from "@/lib/data";
 
 const cardStyles = [
-  { bg: "#0d1f17", accent: "#10b981" },
-  { bg: "#101f10", accent: "#22c55e" },
-  { bg: "#171f0d", accent: "#84cc16" },
+  { bg: "#ffffff", accent: "#073a85" },
+  { bg: "#f3f6fa", accent: "#222a34" },
+  { bg: "#eef4fb", accent: "#0b55bd" },
 ];
 
 export default function Experience() {
@@ -68,7 +68,7 @@ export default function Experience() {
             className="sticky top-0 min-h-screen flex items-center"
             style={{
               zIndex: i + 10,
-              background: `linear-gradient(160deg, ${style.bg} 0%, #0a0a0a 60%)`,
+              background: `linear-gradient(160deg, ${style.bg} 0%, #f8fafc 58%, #e9eef5 100%)`,
             }}
           >
             <div className="absolute inset-0 hero-grid opacity-[0.12]" />

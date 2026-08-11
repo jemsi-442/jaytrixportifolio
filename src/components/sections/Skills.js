@@ -9,8 +9,9 @@ export default function Skills() {
   const categories = [
     skills.architecture,
     skills.database,
-    skills.frontend,
     skills.devops,
+    skills.security,
+    skills.frontend,
   ];
   const primarySkillCount = skills.architecture.items.length;
   const totalSkillCount = categories.reduce((count, category) => count + category.items.length, 0);
@@ -51,7 +52,7 @@ export default function Skills() {
         </AnimateOnScroll>
 
         {/* Skills Grid */}
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 mt-12">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3 mt-12">
           {categories.map((category, index) => (
             <AnimateOnScroll
               key={category.title}

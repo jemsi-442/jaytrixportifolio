@@ -1,25 +1,42 @@
 @import "tailwindcss";
 
 /* ===============================
-   ENGINEER DARK THEME
+   JAYTRIX BRAND THEME
 ================================= */
 :root {
-  --background: #0b0f1a;
-  --background-secondary: #111827;
-  --surface: #1a2238;
+  --background: #ffffff;
+  --background-secondary: #f4f7fb;
+  --surface: #ffffff;
 
-  --foreground: #f3f4f6;
-  --foreground-secondary: #cbd5e1;
-  --foreground-muted: #64748b;
+  --foreground: #202832;
+  --foreground-secondary: #3a4654;
+  --foreground-muted: #6f7b8a;
 
-  --accent: #5c7cfa;
-  --accent-light: #7f8fff;
-  --accent-dark: #3b5bdb;
+  --accent: #062f73;
+  --accent-light: #0a4ea7;
+  --accent-dark: #031f4f;
+  --brand-charcoal: #222a34;
+  --brand-ice: #f8fafc;
 
-  --accent-glow: rgba(92,124,250,0.15);
-  --accent-glow-strong: rgba(92,124,250,0.35);
+  --accent-glow: rgba(7, 58, 133, 0.14);
+  --accent-glow-strong: rgba(11, 85, 189, 0.24);
 
-  --border: #1f2937;
+  --border: #d4dde8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-secondary: var(--background-secondary);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-foreground-secondary: var(--foreground-secondary);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-accent-dark: var(--accent-dark);
+  --color-border: var(--border);
+  --shadow-accent-glow: 0 0 22px var(--accent-glow);
+  --shadow-accent-glow-strong: 0 0 34px var(--accent-glow-strong);
 }
 
 /* ===============================
@@ -27,7 +44,9 @@
 ================================= */
 
 body {
-  background: var(--background);
+  background:
+    radial-gradient(circle at 50% -12%, rgba(6, 47, 115, 0.13), transparent 34rem),
+    linear-gradient(180deg, #ffffff 0%, #f8fafc 48%, #f3f6fa 100%);
   color: var(--foreground);
   font-family: var(--font-poppins), system-ui, sans-serif;
   overflow-x: hidden;
@@ -45,8 +64,8 @@ html {
 
 .hero-grid {
   background-image:
-    linear-gradient(rgba(148, 163, 184, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(148, 163, 184, 0.08) 1px, transparent 1px);
+    linear-gradient(rgba(7, 58, 133, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(32, 40, 50, 0.055) 1px, transparent 1px);
   background-size: 42px 42px;
   mask-image: radial-gradient(circle at center, black 35%, transparent 85%);
 }
@@ -56,7 +75,7 @@ html {
 ================================= */
 
 .glass {
-  background: rgba(26, 34, 56, 0.6);
+  background: rgba(248, 250, 252, 0.78);
   backdrop-filter: blur(14px);
   border: 1px solid var(--border);
   border-radius: 20px;

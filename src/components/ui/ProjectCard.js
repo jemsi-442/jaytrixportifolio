@@ -10,36 +10,36 @@ function getPreviewTone(title, category) {
 
   if (key.includes("marketplace") || key.includes("escrow")) {
     return {
-      glow: "rgba(16, 185, 129, 0.22)",
-      edge: "rgba(16, 185, 129, 0.45)",
-      panel: "rgba(6, 78, 59, 0.45)",
-      chip: "rgba(16, 185, 129, 0.14)",
+      glow: "rgba(7, 58, 133, 0.22)",
+      edge: "rgba(7, 58, 133, 0.45)",
+      panel: "rgba(7, 58, 133, 0.42)",
+      chip: "rgba(7, 58, 133, 0.14)",
     };
   }
 
   if (key.includes("pharmacy") || key.includes("inventory")) {
     return {
-      glow: "rgba(34, 197, 94, 0.2)",
-      edge: "rgba(34, 197, 94, 0.4)",
-      panel: "rgba(20, 83, 45, 0.45)",
-      chip: "rgba(34, 197, 94, 0.14)",
+      glow: "rgba(34, 42, 52, 0.2)",
+      edge: "rgba(34, 42, 52, 0.4)",
+      panel: "rgba(34, 42, 52, 0.45)",
+      chip: "rgba(34, 42, 52, 0.14)",
     };
   }
 
   if (key.includes("payroll") || key.includes("salary")) {
     return {
-      glow: "rgba(249, 115, 22, 0.22)",
-      edge: "rgba(249, 115, 22, 0.45)",
-      panel: "rgba(124, 45, 18, 0.42)",
-      chip: "rgba(249, 115, 22, 0.14)",
+      glow: "rgba(11, 85, 189, 0.22)",
+      edge: "rgba(11, 85, 189, 0.45)",
+      panel: "rgba(11, 85, 189, 0.38)",
+      chip: "rgba(11, 85, 189, 0.14)",
     };
   }
 
   return {
-    glow: "rgba(92, 124, 250, 0.24)",
-    edge: "rgba(92, 124, 250, 0.45)",
-    panel: "rgba(30, 41, 59, 0.5)",
-    chip: "rgba(92, 124, 250, 0.14)",
+    glow: "rgba(11, 85, 189, 0.24)",
+    edge: "rgba(11, 85, 189, 0.45)",
+    panel: "rgba(34, 42, 52, 0.52)",
+    chip: "rgba(11, 85, 189, 0.14)",
   };
 }
 
@@ -116,6 +116,7 @@ export default function ProjectCard({
   liveUrl,
   sourceUrl,
   repoNote,
+  privacyNote,
   placeholder = false,
 }) {
   const tone = getPreviewTone(title, category);
@@ -275,6 +276,11 @@ export default function ProjectCard({
         {focus && (
           <p className="mb-5 rounded-2xl border border-accent/15 bg-accent/5 px-4 py-3 text-sm leading-relaxed text-foreground-secondary">
             {focus}
+          </p>
+        )}
+        {privacyNote && (
+          <p className="mb-5 rounded-2xl border border-border bg-background/70 px-4 py-3 text-sm leading-relaxed text-foreground-muted">
+            {privacyNote}
           </p>
         )}
 

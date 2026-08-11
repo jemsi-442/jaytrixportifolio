@@ -3,7 +3,15 @@
 import { useState, useEffect } from "react";
 import { navLinks, profile } from "@/lib/data";
 import useScrollSpy from "@/hooks/useScrollSpy";
-import { MenuIcon, XIcon } from "@/components/icons";
+import {
+  GithubIcon,
+  JayTrixMarkIcon,
+  LinkedinIcon,
+  MenuIcon,
+  WhatsAppIcon,
+  XIcon,
+  YouTubeIcon,
+} from "@/components/icons";
 import { cn } from "@/lib/utils";
 
 const sectionIds = navLinks.map((link) => link.href.replace("#", ""));
@@ -41,11 +49,21 @@ export default function Navbar() {
         {/* Logo */}
         <a
           href="#hero"
-          className="text-xl font-bold text-foreground hover:text-accent transition-colors duration-300"
+          className="group flex items-center gap-3 transition-colors duration-300"
+          aria-label={profile.name}
         >
-          <span className="text-accent">&lt;</span>
-          {profile.name.split(" ")[0]}
-          <span className="text-accent"> /&gt;</span>
+          <JayTrixMarkIcon
+            size={42}
+            className="shrink-0 drop-shadow-[0_10px_18px_rgba(7,58,133,0.18)] transition-transform duration-300 group-hover:-translate-y-0.5"
+          />
+          <span className="leading-none">
+            <span className="block text-lg font-extrabold tracking-[0.14em] text-accent sm:text-xl">
+              JAYTRIX
+            </span>
+            <span className="block text-[10px] font-semibold tracking-[0.42em] text-foreground sm:text-[11px]">
+              SYSTEMS
+            </span>
+          </span>
         </a>
 
         {/* Desktop nav */}
@@ -102,6 +120,17 @@ export default function Navbar() {
             mobileOpen ? "translate-y-0" : "-translate-y-full"
           )}
         >
+          <div className="mb-5 flex items-center gap-3 border-b border-border pb-5">
+            <JayTrixMarkIcon size={42} className="shrink-0" />
+            <span className="leading-none">
+              <span className="block text-lg font-extrabold tracking-[0.14em] text-accent">
+                JAYTRIX
+              </span>
+              <span className="block text-[10px] font-semibold tracking-[0.42em] text-foreground">
+                SYSTEMS
+              </span>
+            </span>
+          </div>
           <div className="flex flex-col gap-2">
             {navLinks.map((link) => {
               const id = link.href.replace("#", "");
@@ -121,6 +150,44 @@ export default function Navbar() {
                 </a>
               );
             })}
+          </div>
+          <div className="mt-5 flex items-center gap-3 border-t border-border pt-5">
+            <a
+              href={profile.social.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              className="rounded-full p-2 text-foreground-secondary transition-colors duration-200 hover:bg-background hover:text-accent"
+            >
+              <GithubIcon size={20} />
+            </a>
+            <a
+              href={profile.social.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="rounded-full p-2 text-foreground-secondary transition-colors duration-200 hover:bg-background hover:text-accent"
+            >
+              <LinkedinIcon size={20} />
+            </a>
+            <a
+              href={profile.social.youtube}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+              className="rounded-full p-2 text-foreground-secondary transition-colors duration-200 hover:bg-background hover:text-accent"
+            >
+              <YouTubeIcon size={22} />
+            </a>
+            <a
+              href={profile.social.whatsapp}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+              className="rounded-full p-2 text-foreground-secondary transition-colors duration-200 hover:bg-background hover:text-accent"
+            >
+              <WhatsAppIcon size={20} />
+            </a>
           </div>
         </div>
       </div>

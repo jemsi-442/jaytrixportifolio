@@ -8,25 +8,23 @@ const layers = [
     nodes: [
       {
         label: "Node.js",
-        color: "#68A063",
+        color: "#062f73",
         desc: "Event-driven API layer",
-        link: "https://github.com/jemsi-442/rgc-system",
       },
       {
         label: "Symfony",
-        color: "#000000",
+        color: "#222a34",
         desc: "Enterprise service core",
-        link: "https://github.com/jemsi-442/marketplace",
       },
       {
         label: "Laravel",
-        color: "#FF2D20",
+        color: "#0a4ea7",
         desc: "Business logic engine",
         link: "https://github.com/jemsi-442/payroll_management",
       },
       {
         label: "Django",
-        color: "#092E20",
+        color: "#344150",
         desc: "Secure software framework",
         link: "https://github.com/jemsi-442",
       },
@@ -35,19 +33,19 @@ const layers = [
   {
     radius: 34,
     nodes: [
-      { label: "PostgreSQL", color: "#336791", desc: "Primary relational store" },
-      { label: "MongoDB", color: "#47A248", desc: "Document data layer" },
-      { label: "MySQL", color: "#00758F", desc: "Transactional storage" },
-      { label: "Redis", color: "#DC382D", desc: "Caching layer" },
+      { label: "PostgreSQL", color: "#062f73", desc: "Primary relational store" },
+      { label: "MongoDB", color: "#222a34", desc: "Document data layer" },
+      { label: "MySQL", color: "#0a4ea7", desc: "Transactional storage" },
+      { label: "Redis", color: "#344150", desc: "Caching layer" },
     ],
   },
   {
     radius: 46,
     nodes: [
-      { label: "Linux", color: "#FCC624", desc: "Production server OS" },
-      { label: "Docker", color: "#2496ED", desc: "Container orchestration" },
-      { label: "CI/CD", color: "#10B981", desc: "Automated deployment" },
-      { label: "Nginx", color: "#009639", desc: "Edge reverse proxy" },
+      { label: "Linux", color: "#062f73", desc: "Production server OS" },
+      { label: "Docker", color: "#222a34", desc: "Container orchestration" },
+      { label: "CI/CD", color: "#0a4ea7", desc: "Automated deployment" },
+      { label: "Nginx", color: "#344150", desc: "Edge reverse proxy" },
     ],
   },
 ];
@@ -64,6 +62,11 @@ function polar(cx, cy, r, angle) {
 
 export default function TechFlow() {
   const [active, setActive] = useState(null);
+  const openNodeLink = (node) => {
+    if (node.link) {
+      window.open(node.link, "_blank", "noopener,noreferrer");
+    }
+  };
 
   return (
     <div className="relative mx-auto h-[300px] w-[300px] sm:h-[380px] sm:w-[380px] lg:h-[500px] lg:w-[500px]">
@@ -98,9 +101,20 @@ export default function TechFlow() {
             return (
               <g
                 key={node.label}
+                role={node.link ? "link" : "img"}
+                tabIndex={node.link ? 0 : undefined}
+                aria-label={`${node.label}: ${node.desc}${node.link ? ". Open related repository" : ""}`}
                 onMouseEnter={() => setActive(node)}
                 onMouseLeave={() => setActive(null)}
-                onClick={() => node.link && window.open(node.link, "_blank")}
+                onFocus={() => setActive(node)}
+                onBlur={() => setActive(null)}
+                onClick={() => openNodeLink(node)}
+                onKeyDown={(event) => {
+                  if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    openNodeLink(node);
+                  }
+                }}
                 style={{ cursor: node.link ? "pointer" : "default" }}
               >
                 {/* Data flow pulse */}

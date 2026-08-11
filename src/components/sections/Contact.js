@@ -5,7 +5,14 @@ import { profile } from "@/lib/data";
 import SectionHeading from "@/components/ui/SectionHeading";
 import AnimateOnScroll from "@/components/ui/AnimateOnScroll";
 import Button from "@/components/ui/Button";
-import { MailIcon, PhoneIcon, MapPinIcon, SendIcon, WhatsAppIcon } from "@/components/icons";
+import {
+  MailIcon,
+  PhoneIcon,
+  MapPinIcon,
+  SendIcon,
+  WhatsAppIcon,
+  YouTubeIcon,
+} from "@/components/icons";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -29,7 +36,7 @@ export default function Contact() {
       `Name: ${name}\nEmail: ${email}\n\n${message}`
     )}`;
     window.open(mailtoLink, "_blank");
-    setStatus("sent");
+    setStatus("drafted");
     setTimeout(() => setStatus(null), 3000);
   };
 
@@ -61,6 +68,13 @@ export default function Contact() {
       label: "WhatsApp",
       value: "Chat on WhatsApp",
       href: profile.social.whatsapp,
+      target: "_blank",
+    },
+    {
+      icon: YouTubeIcon,
+      label: "YouTube",
+      value: "JayTrix Systems",
+      href: profile.social.youtube,
       target: "_blank",
     },
     {
@@ -269,7 +283,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 rounded-xl bg-background border border-border text-foreground placeholder:text-foreground-muted focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-all duration-200"
-                    placeholder="jaytrix@email.com"
+                    placeholder="your@email.com"
                   />
                 </div>
               </div>
@@ -309,17 +323,17 @@ export default function Contact() {
                 />
               </div>
               <Button type="submit" size="lg" className="w-full">
-                {status === "sent" ? (
-                  "Message Sent!"
+                {status === "drafted" ? (
+                  "Email Draft Opened"
                 ) : (
                   <>
                     Send Message <SendIcon size={18} />
                   </>
                 )}
               </Button>
-              {status === "sent" && (
+              {status === "drafted" && (
                 <div className="rounded-xl border border-accent/20 bg-accent/10 px-4 py-3 text-sm text-accent">
-                  Your email app should open now with the message already prepared.
+                  Your email app should open with the message prepared for review.
                 </div>
               )}
             </form>

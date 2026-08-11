@@ -14,11 +14,16 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: `${profile.name} | ${profile.title}`,
+  title: `JayTrix Systems | ${profile.title}`,
+  applicationName: "JayTrix Systems Portfolio",
   description: `${profile.tagline} Based in ${profile.location}.`,
   keywords: [
+    "JayTrix Systems",
     "Software Engineer",
     "Systems Architect",
+    "Linux Administrator",
+    "Cybersecurity",
+    "Penetration Testing",
     "Next.js",
     "Node.js",
     "PHP",
@@ -34,11 +39,24 @@ export const metadata = {
     "Software Development",
   ],
   authors: [{ name: profile.name }],
+  creator: profile.name,
+  publisher: "JayTrix Systems",
   openGraph: {
-    title: `${profile.name} | ${profile.title}`,
+    title: `JayTrix Systems | ${profile.title}`,
     description: `${profile.tagline} Based in ${profile.location}.`,
+    siteName: "JayTrix Systems",
     type: "website",
     locale: "en_US",
+  },
+  twitter: {
+    card: "summary",
+    title: `JayTrix Systems | ${profile.title}`,
+    description: `${profile.tagline} Based in ${profile.location}.`,
+  },
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
   },
   robots: { index: true, follow: true },
 };

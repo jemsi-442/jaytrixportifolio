@@ -1,6 +1,13 @@
 import { profile, navLinks } from "@/lib/data";
 import Button from "@/components/ui/Button";
-import { GithubIcon, LinkedinIcon, MailIcon, WhatsAppIcon } from "@/components/icons";
+import {
+  GithubIcon,
+  JayTrixMarkIcon,
+  LinkedinIcon,
+  MailIcon,
+  WhatsAppIcon,
+  YouTubeIcon,
+} from "@/components/icons";
 
 export default function Footer() {
   return (
@@ -11,11 +18,21 @@ export default function Footer() {
           <div>
             <a
               href="#hero"
-              className="text-xl font-bold text-foreground hover:text-accent transition-colors duration-300"
+              className="group inline-flex items-center gap-3 transition-colors duration-300"
+              aria-label={profile.name}
             >
-              <span className="text-accent">&lt;</span>
-              {profile.name.split(" ")[0]}
-              <span className="text-accent"> /&gt;</span>
+              <JayTrixMarkIcon
+                size={44}
+                className="shrink-0 drop-shadow-[0_10px_18px_rgba(7,58,133,0.16)] transition-transform duration-300 group-hover:-translate-y-0.5"
+              />
+              <span className="leading-none">
+                <span className="block text-lg font-extrabold tracking-[0.14em] text-accent">
+                  JAYTRIX
+                </span>
+                <span className="block text-[10px] font-semibold tracking-[0.42em] text-foreground">
+                  SYSTEMS
+                </span>
+              </span>
             </a>
             <p className="mt-3 text-foreground-secondary text-sm leading-relaxed max-w-xs">
               {profile.tagline}
@@ -68,6 +85,15 @@ export default function Footer() {
                 className="p-2 rounded-full text-foreground-secondary hover:text-accent hover:bg-surface transition-all duration-200"
               >
                 <LinkedinIcon size={20} />
+              </a>
+              <a
+                href={profile.social.youtube}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube"
+                className="p-2 rounded-full text-foreground-secondary hover:text-accent hover:bg-surface transition-all duration-200"
+              >
+                <YouTubeIcon size={22} />
               </a>
               <a
                 href={profile.social.whatsapp}

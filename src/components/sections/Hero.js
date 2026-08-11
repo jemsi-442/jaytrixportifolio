@@ -3,9 +3,11 @@ import Button from "@/components/ui/Button";
 import TechFlow from "@/components/ui/TechFlow";
 import {
   GithubIcon,
+  JayTrixMarkIcon,
   LinkedinIcon,
   ChevronDownIcon,
   WhatsAppIcon,
+  YouTubeIcon,
 } from "@/components/icons";
 
 export default function Hero() {
@@ -23,6 +25,18 @@ export default function Hero() {
       <div className="relative mx-auto w-full max-w-7xl px-4 py-12 sm:px-6 sm:py-16 md:py-20 lg:px-8">
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="order-2 lg:order-1">
+            <div className="animate-fade-in-up mb-5 inline-flex max-w-full items-center gap-3 rounded-2xl border border-border bg-surface/70 px-3 py-2 shadow-lg shadow-accent-glow backdrop-blur-md">
+              <JayTrixMarkIcon size={38} className="shrink-0" />
+              <span className="min-w-0 leading-none">
+                <span className="block text-sm font-extrabold tracking-[0.18em] text-accent">
+                  JAYTRIX SYSTEMS
+                </span>
+                <span className="mt-1 block text-[9px] font-semibold uppercase tracking-[0.12em] text-foreground-muted sm:text-[10px] sm:tracking-[0.28em]">
+                  Technology | Innovation | Excellence
+                </span>
+              </span>
+            </div>
+
             <div className="animate-fade-in-up mb-4 text-[11px] font-mono uppercase tracking-[0.28em] text-foreground-muted sm:text-xs">
               Software engineering for structured, production-minded systems
             </div>
@@ -66,15 +80,7 @@ export default function Hero() {
 
             <div className="animate-fade-in-up delay-400 mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
               <Button href="#projects" size="lg" className="w-full sm:w-auto">
-                Explore Systems
-              </Button>
-              <Button
-                href="#experience"
-                variant="outline"
-                size="lg"
-                className="w-full sm:w-auto"
-              >
-                View Experience
+                View My Systems
               </Button>
               <Button
                 href="#contact"
@@ -82,7 +88,15 @@ export default function Hero() {
                 size="lg"
                 className="w-full sm:w-auto"
               >
-                Discuss a Project
+                Discuss Architecture
+              </Button>
+              <Button
+                href="#education"
+                variant="outline"
+                size="lg"
+                className="w-full sm:w-auto"
+              >
+                View Training
               </Button>
             </div>
 
@@ -143,6 +157,16 @@ export default function Hero() {
                 className="p-2 text-foreground-secondary transition-colors duration-200 hover:text-accent"
               >
                 <LinkedinIcon size={22} />
+              </a>
+
+              <a
+                href={profile.social.youtube}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube"
+                className="p-2 text-foreground-secondary transition-colors duration-200 hover:text-accent"
+              >
+                <YouTubeIcon size={24} />
               </a>
 
               <a
