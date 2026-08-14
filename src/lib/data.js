@@ -149,7 +149,7 @@ export const skills = {
       "Nginx",
       "Log Analysis",
       "Backups & Monitoring",
-      "Vercel Deployment",
+      "VPS Deployment",
       "Environment Configuration",
       "Basic CI/CD Concepts",
     ],

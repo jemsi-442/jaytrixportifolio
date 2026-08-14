@@ -6,7 +6,7 @@ Phone/WhatsApp: +255 683 186 987
 GitHub: https://github.com/jemsi-442
 LinkedIn: https://www.linkedin.com/in/jaytrix-systems-74202a320/
 YouTube: https://youtube.com/@jaytrixsystems442tx
-Portfolio: https://jayfourportfolio.vercel.app
+Portfolio: https://jemsiportfolio.vercel.app/
 
 PROFESSIONAL SUMMARY
 Software Engineer and Systems Architect with a strong Human Resource Management and Business Administration background. Able to contribute in technical roles, administrative roles, HR operations, business operations, and system-focused positions. Experienced in building and specifying secure, maintainable systems including multi-tenant SaaS platforms, POS workflows, RBAC systems, payroll logic, administration, documentation, and operational decision-making.
