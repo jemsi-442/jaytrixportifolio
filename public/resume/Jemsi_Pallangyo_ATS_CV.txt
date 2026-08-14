@@ -1,0 +1,61 @@
+JEMSI FREDRICK PALLANGYO
+Software Engineer & Systems Architect | HRM & Business Administration Background | JayTrix Systems
+Dar es Salaam, Tanzania
+Email: jemsifredrick4@gmail.com
+Phone/WhatsApp: +255 683 186 987
+GitHub: https://github.com/jemsi-442
+LinkedIn: https://www.linkedin.com/in/jaytrix-systems-74202a320/
+YouTube: https://youtube.com/@jaytrixsystems442tx
+Portfolio: https://jayfourportfolio.vercel.app
+
+PROFESSIONAL SUMMARY
+Software Engineer and Systems Architect with a strong Human Resource Management and Business Administration background. Able to contribute in technical roles, administrative roles, HR operations, business operations, and system-focused positions. Experienced in building and specifying secure, maintainable systems including multi-tenant SaaS platforms, POS workflows, RBAC systems, payroll logic, administration, documentation, and operational decision-making.
+
+CORE COMPETENCIES
+Software & Systems: Software architecture, backend development, multi-tenant SaaS design, POS workflow design, REST API design, service-layer architecture, validation pipelines, RBAC, JWT authentication, secure API architecture, offline sync planning.
+Programming & Frameworks: PHP, Laravel, Symfony, Node.js, Express, Django, React, Next.js, JavaScript, TypeScript, C++, Go, Flutter, Dart, Tailwind CSS.
+Databases & Infrastructure: MySQL, MariaDB, PostgreSQL, MongoDB, Redis, relational data modeling, tenant-isolated schema design, query optimization, transactional workflows.
+Linux, Security & Operations: Linux administration, shell scripting, permissions, systemd, firewall configuration, Nginx, logs, backups, monitoring, penetration testing fundamentals, vulnerability assessment, web application security.
+Business Administration & HR: HR administration, payroll workflow understanding, records management, staff data handling, administrative coordination, organizational workflows, reporting, documentation, communication, and operational support.
+
+SELECTED PROJECT EXPERIENCE
+JAYTRIX Sales Management System | Flutter, Go, PostgreSQL, Redis, Multi-Tenant SaaS | Design Complete
+Prepared implementation-ready specification for desktop/mobile/web POS, inventory, customers, reports, subscription billing, offline operations, tenant isolation, RBAC, audit logs, receipt workflows, and Tanzanian payment integration planning.
+RGC - Redeemed Gospel Church Inc. Tanzania Management Platform | Laravel, MySQL, Spatie Permission | Private Build
+Designed a national church governance platform supporting administration workflows, role control, branch oversight, and structured organizational operations across Tanzania Mainland and Zanzibar.
+Ecommerce Multi-Vendor Platform | React, Node.js, Express, MariaDB, JWT RBAC | Private Build
+Built marketplace workflows for shoppers, vendors, riders, and administrators with product management, order-state logic, delivery assignment, and operational metrics.
+Payroll Management System | Laravel, MySQL, Validation Pipelines
+Implemented salary computation, deductions processing, payroll workflow control, and validation-driven request handling informed by HR/payroll workflow knowledge.
+Pharmacy Management System | Node.js, Express, MariaDB
+Created inventory and sales workflow support with stock movement control, transaction-focused logic, relational data handling, and query-conscious database design.
+
+PROFESSIONAL EXPERIENCE
+Independent Software Engineer - Architecture-Driven Projects | 2019 - Present
+Lead software architecture decisions across database modeling, authentication workflows, access control, service boundaries, API design, and long-term maintainability.
+Design systems around real business workflows, predictable state handling, secure validation, clear documentation, and separation between controllers, services, and data layers.
+Build and document production-minded systems using PHP/Laravel/Symfony, Node.js/Express, Django, React/Next.js, SQL databases, Linux-based environments, C++, Go, and Flutter where relevant.
+Apply HRM and business administration knowledge when designing payroll, administrative, governance, records, sales, inventory, and workflow-heavy systems.
+
+EDUCATION
+Bachelor of Business Administration (BBA) | Tanzania Institute of Accountancy (TIA)
+Relevant areas: strategic planning, business operations, administration, decision-making, organizational systems, and workflow understanding.
+Diploma in Human Resource Management (HRM) | Tanzania Institute of Accountancy (TIA) | 2021 - 2024
+Relevant areas: payroll logic, employee records, administrative processes, organizational workflows, HR operations, and structured reporting.
+Secondary Education | Kitefu Secondary School | 2017 - 2020
+Primary Education | Dolly Primary School | 2008 - 2016
+
+CONTINUOUS TECHNICAL DEVELOPMENT
+Software Engineering & System Architecture: Clean architecture, secure APIs, data modeling, RBAC, SaaS structure, offline sync design, C++, Go, and Flutter.
+Linux Administrator: Linux server setup, users and permissions, shell operations, systemd services, networking, firewall configuration, logs, backups, and monitoring.
+Cybersecurity (Penetration Testing): Ethical testing, vulnerability assessment, reconnaissance, web application security, authentication testing, reporting, and hardening recommendations.
+
+ROLE FLEXIBILITY
+Open to software engineering, backend development, mobile application development, POS and inventory systems, systems administration, junior cybersecurity, IT support, HR administration, business administration, payroll support, records management, operations support, and digital transformation roles where technical skill and administrative understanding are valuable together.
+
+KEYWORDS
+Software Engineer, Systems Architect, Backend Developer, Full-Stack Developer, Mobile Developer, Flutter Developer, Go Developer, C++ Developer, POS System, Sales Management System, Inventory Management, Multi-Tenant SaaS, Offline Sync, PostgreSQL, Redis, Linux Administrator, Cybersecurity, Penetration Testing, IT Support, HR Officer, Human Resource Management, Business Administration, Administrative Assistant, Operations Support, Payroll Support, Records Management, Laravel, Symfony, PHP, Node.js, Express, Django, React, Next.js, JavaScript, TypeScript, C++, Go, Flutter, Dart, MySQL, MariaDB, MongoDB, REST API, RBAC, JWT, API Security, Tanzania.
+
+REFERENCES
+Yuster Joseph | Cybersecurity SOC Analyst, RB Leaders | Phone: +255 712 998 094
+Ezekia Mbise | Customs Officer, Tanzania Revenue Authority (TRA) | Phone: +225 765 885 536

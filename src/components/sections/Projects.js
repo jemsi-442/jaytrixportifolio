@@ -13,6 +13,9 @@ const projectFilters = [
   { label: "Private", value: "private" },
   { label: "Laravel", value: "laravel" },
   { label: "Node", value: "node" },
+  { label: "Go", value: "go" },
+  { label: "Flutter", value: "flutter" },
+  { label: "SaaS", value: "saas" },
   { label: "Django", value: "django" },
 ];
 
@@ -23,7 +26,7 @@ export default function Projects() {
   const platforms = new Set(
     projects.flatMap((project) =>
       project.tags.filter((tag) =>
-        ["Node.js", "Express", "Laravel", "Symfony", "PHP", "Django", "React"].includes(tag)
+        ["Node.js", "Express", "Laravel", "Symfony", "PHP", "Django", "React", "Go", "Flutter"].includes(tag)
       )
     )
   );
@@ -37,7 +40,9 @@ export default function Projects() {
       if (activeFilter === "public") return project.sourceUrl;
       if (activeFilter === "private") return !project.sourceUrl;
 
-      return project.tags.some((tag) => tag.toLowerCase().includes(activeFilter));
+      return [project.category, ...project.tags].some((value) =>
+        value.toLowerCase().includes(activeFilter)
+      );
     });
 
     if (!normalizedSearch) return byFilter;

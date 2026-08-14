@@ -26,6 +26,15 @@ function getPreviewTone(title, category) {
     };
   }
 
+  if (key.includes("sales") || key.includes("pos") || key.includes("saas")) {
+    return {
+      glow: "rgba(6, 47, 115, 0.24)",
+      edge: "rgba(6, 47, 115, 0.48)",
+      panel: "rgba(6, 47, 115, 0.42)",
+      chip: "rgba(10, 78, 167, 0.16)",
+    };
+  }
+
   if (key.includes("payroll") || key.includes("salary")) {
     return {
       glow: "rgba(11, 85, 189, 0.22)",
@@ -92,6 +101,14 @@ function getPreviewMeta(title, category, tags) {
       label: "Transaction Preview",
       caption: "Escrow State Flow",
       summary: stack || "Symfony • PHP • RBAC",
+    };
+  }
+
+  if (key.includes("sales") || key.includes("pos") || key.includes("saas")) {
+    return {
+      label: "SaaS Preview",
+      caption: "POS, Stock & Billing",
+      summary: stack || "Flutter • Go • PostgreSQL",
     };
   }
 

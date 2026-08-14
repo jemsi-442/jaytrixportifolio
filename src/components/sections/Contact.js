@@ -198,6 +198,26 @@ export default function Contact() {
                 </p>
               </div>
 
+              <div className="mb-8 rounded-[1.75rem] border border-accent/20 bg-accent/8 p-5">
+                <div className="text-[11px] font-mono uppercase tracking-[0.24em] text-accent">
+                  Role Flexibility
+                </div>
+                <p className="mt-3 text-sm leading-relaxed text-foreground-secondary">
+                  Available for technical roles, business operations support, and hybrid positions
+                  where software thinking and administration experience work together.
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {profile.roleFlexibility.map((role) => (
+                    <span
+                      key={role}
+                      className="rounded-full border border-border bg-background/60 px-3 py-1.5 text-xs font-medium text-foreground-secondary"
+                    >
+                      {role}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
               <div className="space-y-4">
                 {contactInfo.map((item) => {
                   const Icon = item.icon;

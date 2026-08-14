@@ -42,6 +42,20 @@ export const profile = {
     "API and access-control planning",
     "Workflow-heavy business software",
   ],
+  roleFlexibility: [
+    "Software engineering",
+    "Backend development",
+    "Mobile application development",
+    "POS and inventory systems",
+    "Linux systems administration",
+    "Junior cybersecurity / penetration testing",
+    "IT support",
+    "HR administration",
+    "Business administration",
+    "Payroll and records support",
+    "Operations support",
+    "Digital transformation",
+  ],
   focusAreas: [
     "Authentication-driven platforms",
     "Role-based access control",
@@ -72,13 +86,16 @@ export const skills = {
     items: [
       "Node.js",
       "Express",
+      "Go",
       "PHP",
       "Symfony",
       "Laravel",
       "Django",
+      "Multi-Tenant SaaS Design",
       "REST API Design",
       "Authentication & Authorization",
       "Role-Based Access Control (RBAC)",
+      "Offline Sync Architecture",
       "Secure API Architecture",
       "Business Logic Structuring",
     ],
@@ -93,8 +110,10 @@ export const skills = {
       "MySQL",
       "PostgreSQL",
       "MariaDB",
+      "Redis",
       "Relational Data Modeling",
       "Query Optimization",
+      "Tenant-Isolated Schema Design",
     ],
   },
   frontend: {
@@ -107,8 +126,12 @@ export const skills = {
       "Next.js",
       "JavaScript",
       "TypeScript",
+      "Flutter",
+      "Dart",
+      "C++",
       "Tailwind CSS",
       "Responsive UI Integration",
+      "Desktop & Mobile POS UI",
     ],
   },
   devops: {
@@ -238,6 +261,39 @@ export const education = [
 
 export const projects = [
   {
+    title: "JAYTRIX Sales Management System",
+    category: "Multi-tenant SaaS POS and inventory platform",
+    status: "Private Repo",
+    role: "SaaS architecture, POS workflow design, offline sync planning, and payment integration specification",
+    description:
+      "A design-complete multi-tenant SaaS platform for retail shops, supermarkets, hotels, bars, pharmacies, hardware stores, wholesalers, and other sales-driven businesses.",
+    focus:
+      "Specified Flutter desktop/mobile/web POS clients, a Go modular monolith API, PostgreSQL tenant-isolated data models, Redis-backed operations, offline sync, subscription billing, and Tanzanian payment integration workflows.",
+    highlights: [
+      "Desktop and mobile POS workflows with barcode, receipt, and offline queue support",
+      "Tenant isolation, RBAC permissions, branch-level access, and audit logging rules",
+      "Inventory, customers, sales, reports, subscriptions, payments, and Snippe callback planning",
+    ],
+    tags: [
+      "Flutter",
+      "Dart",
+      "Go",
+      "PostgreSQL",
+      "Redis",
+      "Multi-Tenant SaaS",
+      "POS",
+      "Offline Sync",
+      "RBAC",
+      "Tanzanian Payments",
+    ],
+    liveUrl: null,
+    sourceUrl: null,
+    repoNote: "Private build",
+    privacyNote:
+      "Repository access is private due to platform scope; architecture, ERD, API outline, business rules, UI flows, receipt samples, and deployment guidance are documented here.",
+  },
+
+  {
     title: "RGC - Redeemed Gospel Church Inc. Tanzania Management Platform",
     category: "National church governance platform",
     status: "Private Repo",
@@ -349,31 +405,6 @@ export const projects = [
     repoNote: "Private build",
     privacyNote:
       "Repository access is private due to platform scope; core architecture and workflow responsibilities are documented here.",
-  },
-
-  {
-    title: "School Management System",
-    category: "Education and school operations",
-    status: "Source Available",
-    role: "School workflow structuring and administrative system design",
-    description:
-      "A clean Django-based school management system built for Tanzanian schools with structured academic and administrative workflows.",
-    focus:
-      "Designed to support organized school operations, maintainable data handling, and day-to-day administrative clarity.",
-    highlights: [
-      "School administration workflow support",
-      "Structured academic and records management",
-      "Clean Django application organization for maintainability",
-    ],
-    tags: [
-      "Django",
-      "Python",
-      "School Operations",
-      "Administrative Workflows",
-      "Data Management",
-    ],
-    liveUrl: null,
-    sourceUrl: "https://github.com/jemsi-442/school-management",
   },
 
   {
