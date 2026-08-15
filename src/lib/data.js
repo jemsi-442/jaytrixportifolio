@@ -174,13 +174,68 @@ export const skills = {
 
 export const experience = [
   {
-    year: "2019 - Present",
-    title: "Independent Software Engineer",
-    company: "Architecture-Driven Projects",
+    year: "2019 - 2021",
+    title: "Personal Projects & Technical Foundation",
+    company: "Independent Learning and Practice",
     role:
-      "Leading software architecture decisions from database modeling to access control and service boundaries.",
+      "Building the foundation through hands-on personal projects and practical software problem solving.",
     description:
-      "Designing and engineering structured software systems including authentication-driven platforms, role-based access control architectures, service-layered APIs, and scalable database models. Focused on production-ready deployment, logical consistency, and long-term maintainability.",
+      "Started with personal software projects focused on programming fundamentals, database-backed applications, CRUD workflows, authentication basics, and practical problem solving.",
+    principles: [
+      "Learning by building real interfaces and data flows",
+      "Understanding how users create, update, and manage records",
+      "Turning small project mistakes into stronger engineering habits",
+    ],
+    deliverables: [
+      "CRUD-based application practice",
+      "Authentication and form workflow foundations",
+      "Database-backed project experiments",
+      "Practical debugging and code organization",
+    ],
+    tags: [
+      "Programming Fundamentals",
+      "CRUD Workflows",
+      "Databases",
+      "Authentication Basics",
+      "Personal Projects",
+    ],
+  },
+  {
+    year: "2021 - 2024",
+    title: "Business Workflow Systems",
+    company: "HRM-Informed Software Development",
+    role:
+      "Connecting software engineering with HRM, administration, payroll, inventory, and operational workflow understanding.",
+    description:
+      "Built payroll, inventory, pharmacy, administration, and workflow-heavy systems while applying HRM knowledge around records, payroll logic, reporting, and organizational processes.",
+    principles: [
+      "Business rules should match real operational processes",
+      "Records and payroll logic need clear validation paths",
+      "Administrative systems must stay understandable for daily users",
+    ],
+    deliverables: [
+      "Payroll and deductions workflow logic",
+      "Inventory and sales operation structures",
+      "Administrative records and reporting flows",
+      "Validation-driven request handling",
+    ],
+    tags: [
+      "Payroll Logic",
+      "Inventory Systems",
+      "HRM Workflows",
+      "Business Operations",
+      "Laravel",
+      "Node.js",
+    ],
+  },
+  {
+    year: "2024 - Present",
+    title: "Architecture-Driven Private Builds",
+    company: "Platform Design and Systems Architecture",
+    role:
+      "Leading architecture decisions across database modeling, authentication, access control, service boundaries, and maintainability.",
+    description:
+      "Designing production-minded private builds and platform specifications across SaaS, governance, ecommerce, and workflow-heavy systems using modern backend, frontend, database, Linux, and mobile technologies.",
     principles: [
       "Authentication-first workflow design",
       "Separation of concerns across controllers, services, and data layers",
@@ -197,7 +252,9 @@ export const experience = [
       "RBAC",
       "API Design",
       "Database Modeling",
-      "System Structuring",
+      "Linux",
+      "Go",
+      "Flutter",
     ],
   },
 ];
