@@ -32,10 +32,13 @@ Created inventory and sales workflow support with stock movement control, transa
 
 PROFESSIONAL EXPERIENCE
 Independent Software Engineer - Architecture-Driven Projects | 2019 - Present
-Lead software architecture decisions across database modeling, authentication workflows, access control, service boundaries, API design, and long-term maintainability.
-Design systems around real business workflows, predictable state handling, secure validation, clear documentation, and separation between controllers, services, and data layers.
-Build and document production-minded systems using PHP/Laravel/Symfony, Node.js/Express, Django, React/Next.js, SQL databases, Linux-based environments, C++, Go, and Flutter where relevant.
-Apply HRM and business administration knowledge when designing payroll, administrative, governance, records, sales, inventory, and workflow-heavy systems.
+Personal Projects & Technical Foundation | 2019 - 2021
+Started with personal software projects focused on programming fundamentals, database-backed applications, CRUD workflows, authentication basics, and practical problem solving.
+Business Workflow Systems & HRM-Informed Development | 2021 - 2024
+Built payroll, inventory, pharmacy, administration, and workflow-heavy systems while applying HRM knowledge around records, payroll logic, reporting, and organizational processes.
+Architecture-Driven Private Builds & Platform Design | 2024 - Present
+Lead architecture decisions across database modeling, authentication workflows, access control, service boundaries, API design, documentation, Linux-based environments, and long-term maintainability.
+Design production-minded systems using PHP/Laravel/Symfony, Node.js/Express, Django, React/Next.js, SQL databases, C++, Go, and Flutter where relevant.
 
 EDUCATION
 Bachelor of Business Administration (BBA) | Tanzania Institute of Accountancy (TIA)
