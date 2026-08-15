@@ -60,5 +60,5 @@ KEYWORDS
 Software Engineer, Systems Architect, Backend Developer, Full-Stack Developer, Mobile Developer, Flutter Developer, Go Developer, C++ Developer, POS System, Sales Management System, Inventory Management, Multi-Tenant SaaS, Offline Sync, PostgreSQL, Redis, Linux Administrator, Cybersecurity, Penetration Testing, IT Support, HR Officer, Human Resource Management, Business Administration, Administrative Assistant, Operations Support, Payroll Support, Records Management, Laravel, Symfony, PHP, Node.js, Express, Django, React, Next.js, JavaScript, TypeScript, C++, Go, Flutter, Dart, MySQL, MariaDB, MongoDB, REST API, RBAC, JWT, API Security, Tanzania.
 
 REFERENCES
-Yuster Joseph | Cybersecurity SOC Analyst, RB Leaders | Phone: +255 712 998 094
+Yuster Joseph | Cybersecurity SOC Analyst | Phone: +255 712 998 094
 Ezekia Mbise | Customs Officer, Tanzania Revenue Authority (TRA) | Phone: +225 765 885 536
