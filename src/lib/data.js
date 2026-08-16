@@ -63,7 +63,7 @@ export const profile = {
   ],
   social: {
     github: "https://github.com/jemsi-442",
-    linkedin: "https://www.linkedin.com/in/jaytrix-systems-74202a320/",
+    linkedin: "https://www.linkedin.com/in/jemsi-pallangyo-74202a320/",
     youtube: "https://youtube.com/@jaytrixsystems442tx?si=7EFpHHiENBY2tuiD",
     whatsapp: "https://wa.me/255683186987",
   },
