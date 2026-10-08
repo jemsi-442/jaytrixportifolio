@@ -353,7 +353,7 @@ export const projects = [
   {
     title: "RGC - Redeemed Gospel Church Inc. Tanzania Management Platform",
     category: "National church governance platform",
-    status: "Private Repo",
+    status: "Source Available",
     image: "/images/projects/rgc-system-dashboard.svg",
     imageAlt: "RGC System dashboard showing church administration overview, quick actions, and summary panels",
     role: "PHP platform engineering, governance workflow design, and access control structuring",
@@ -375,10 +375,7 @@ export const projects = [
       "Spatie Permission",
     ],
     liveUrl: null,
-    sourceUrl: null,
-    repoNote: "Private build",
-    privacyNote:
-      "Repository access is private due to organization scope; architecture, stack, and capabilities are documented here.",
+    sourceUrl: "https://github.com/jemsi-442/rgc-system",
   },
 
   {
@@ -435,7 +432,7 @@ export const projects = [
   {
     title: "Ecommerce Multi-Vendor Platform",
     category: "Marketplace and delivery operations",
-    status: "Private Repo",
+    status: "Source Available",
     image: "/images/projects/ecommerce-dashboard.svg",
     imageAlt: "Ecommerce admin dashboard showing marketplace metrics, sales overview, and order breakdown panels",
     role: "Marketplace workflow design, order-state logic, and delivery operations structuring",
@@ -458,16 +455,13 @@ export const projects = [
       "Cloudinary",
     ],
     liveUrl: null,
-    sourceUrl: null,
-    repoNote: "Private build",
-    privacyNote:
-      "Repository access is private due to platform scope; core architecture and workflow responsibilities are documented here.",
+    sourceUrl: "https://github.com/jemsi-442/ecommerce",
   },
 
   {
     title: "Service Marketplace Platform",
     category: "Escrow and service transactions",
-    status: "Private Repo",
+    status: "Source Available",
     image: "/images/projects/service-marketplace-dashboard.svg",
     imageAlt: "Service marketplace vendor dashboard showing booking analytics, balance panels, and capability lanes",
     role: "Marketplace transaction architecture and dispute flow logic",
@@ -488,10 +482,7 @@ export const projects = [
       "Marketplace Architecture",
     ],
     liveUrl: null,
-    sourceUrl: null,
-    repoNote: "Private build",
-    privacyNote:
-      "Repository access is private due to transaction and platform scope; architecture and capabilities are documented here.",
+    sourceUrl: "https://github.com/jemsi-442/marketplace",
   },
 ];
 
