@@ -384,7 +384,7 @@ export const projects = [
     status: "Source Available",
     role: "Software workflow design and data operations structuring",
     description:
-      "A transaction-focused software system handling inventory tracking, sales workflows, and structured data operations. Designed around MariaDB-backed relational models, optimized queries, and controlled access management.",
+      "A transaction-focused software system handling inventory tracking, sales workflows, and structured data operations. Designed around PostgreSQL-backed relational models, optimized queries, and controlled access management.",
     focus:
       "Designed for consistent stock movement, controlled sales handling, and query efficiency.",
     highlights: [
@@ -395,7 +395,7 @@ export const projects = [
     tags: [
       "Node.js",
       "Express",
-      "MariaDB",
+      "PostgreSQL",
       "Relational Modeling",
       "Application Logic",
     ],
@@ -430,14 +430,14 @@ export const projects = [
   },
 
   {
-    title: "Ecommerce Multi-Vendor Platform",
+    title: "JaytrixMarketplace",
     category: "Marketplace and delivery operations",
     status: "Source Available",
     image: "/images/projects/ecommerce-dashboard.svg",
-    imageAlt: "Ecommerce admin dashboard showing marketplace metrics, sales overview, and order breakdown panels",
+    imageAlt: "JaytrixMarketplace admin dashboard showing marketplace metrics, sales overview, and order breakdown panels",
     role: "Marketplace workflow design, order-state logic, and delivery operations structuring",
     description:
-      "A multi-vendor ecommerce platform built for shoppers, vendors, riders, and modern retail operations with structured product, order, and delivery flows.",
+      "JaytrixMarketplace is a multi-vendor marketplace and delivery platform built for shoppers, vendors, riders, and modern retail operations. A product of JAYTRIX SYSTEMS.",
     focus:
       "Designed around role-based access, reliable order progression, and coordinated rider assignment across marketplace operations.",
     highlights: [
@@ -450,12 +450,12 @@ export const projects = [
       "Tailwind CSS",
       "Node.js",
       "Express",
-      "MariaDB",
+      "PostgreSQL",
       "JWT RBAC",
       "Cloudinary",
     ],
     liveUrl: null,
-    sourceUrl: "https://github.com/jemsi-442/ecommerce",
+    sourceUrl: "https://github.com/jemsi-442/JaytrixMarketplace",
   },
 
   {

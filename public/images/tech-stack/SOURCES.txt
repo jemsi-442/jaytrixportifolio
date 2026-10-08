@@ -1,0 +1,9 @@
+Technology brand logos sourced from the technology stacks section of
+https://jaytrix.co.tz/ on 2026-10-08, as referenced by the portfolio owner.
+Inline SVG brand marks preserve their original paths and colors.
+
+Additional assets:
+https://jaytrix.co.tz/images/tech-stack/nmap-logo.svg
+https://jaytrix.co.tz/images/tech-stack/sqlmap-tarsier.png
+
+Brand marks remain the property of their respective owners.

@@ -88,7 +88,7 @@ function getPreviewMeta(title, category, tags) {
     };
   }
 
-  if (key.includes("ecommerce")) {
+  if (key.includes("ecommerce") || key.includes("jaytrixmarketplace")) {
     return {
       label: "Commerce Preview",
       caption: "Orders & Delivery",

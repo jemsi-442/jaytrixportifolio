@@ -1,112 +1,72 @@
-import { skills } from "@/lib/data";
+import Image from "next/image";
+import { technologyStacks } from "@/lib/technology-stacks";
 import SectionHeading from "@/components/ui/SectionHeading";
-import Card from "@/components/ui/Card";
-import Badge from "@/components/ui/Badge";
 import AnimateOnScroll from "@/components/ui/AnimateOnScroll";
 
-export default function Skills() {
-  // Reorder categories to emphasize core engineering strengths first
-  const categories = [
-    skills.architecture,
-    skills.database,
-    skills.devops,
-    skills.security,
-    skills.frontend,
-  ];
-  const primarySkillCount = skills.architecture.items.length;
-  const totalSkillCount = categories.reduce((count, category) => count + category.items.length, 0);
-
+function TechnologyList({ tools }) {
   return (
-    <section id="skills" className="py-20 md:py-28 bg-background-secondary">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* Section Heading */}
+    <ul className="grid grid-cols-3 gap-x-3 gap-y-5 sm:grid-cols-4">
+      {tools.map((tool) => (
+        <li key={tool.name} className="flex min-w-0 flex-col items-center text-center">
+          <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-lg border border-border bg-white">
+            <Image src={tool.icon} alt="" width={38} height={38} unoptimized className="h-[38px] w-[38px] object-contain" />
+          </span>
+          <span className="mt-2 max-w-full break-words text-sm font-semibold leading-snug text-foreground">{tool.name}</span>
+          {tool.note && <span className="mt-1 text-xs leading-relaxed text-foreground-muted">{tool.note}</span>}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+export default function Skills() {
+  return (
+    <section id="skills" className="bg-background-secondary py-20 md:py-28">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <AnimateOnScroll>
-          <SectionHeading
-            title="Architecture & Technical Expertise"
-            subtitle="Capability areas shaped around software structure, reliable delivery, and real operational workflows."
-          />
+          <p className="mb-3 text-center text-sm font-semibold text-accent">Technology stacks</p>
+          <SectionHeading title="Tools behind the solutions" subtitle="My work spans software, mobile, infrastructure and cybersecurity. Some technologies shown are planned in project specifications; the stack is confirmed for each delivery." />
         </AnimateOnScroll>
-
-        <AnimateOnScroll animation="animate-fade-in-up" delay={80}>
-          <div className="mb-10 grid grid-cols-1 gap-4 md:grid-cols-3">
-            <div className="rounded-[1.5rem] border border-border bg-surface/50 p-5 backdrop-blur-md">
-              <div className="text-3xl font-bold text-accent">{primarySkillCount}</div>
-              <div className="mt-1 text-sm text-foreground-secondary">
-                core architecture capabilities
-              </div>
-            </div>
-            <div className="rounded-[1.5rem] border border-border bg-surface/50 p-5 backdrop-blur-md">
-              <div className="text-3xl font-bold text-accent">{categories.length}</div>
-              <div className="mt-1 text-sm text-foreground-secondary">
-                skill layers represented
-              </div>
-            </div>
-            <div className="rounded-[1.5rem] border border-border bg-surface/50 p-5 backdrop-blur-md">
-              <div className="text-3xl font-bold text-accent">{totalSkillCount}+</div>
-              <div className="mt-1 text-sm text-foreground-secondary">
-                tools, patterns, and technologies
-              </div>
-            </div>
-          </div>
-        </AnimateOnScroll>
-
-        {/* Skills Grid */}
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3 mt-12">
-          {categories.map((category, index) => (
-            <AnimateOnScroll
-              key={category.title}
-              animation="animate-fade-in-up"
-              delay={index * 150}
-            >
-              <Card className="h-full rounded-[1.75rem]">
-                <div className="mb-4 flex items-start justify-between gap-4">
-                  <div>
-                    <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-accent/15 bg-accent/8 px-3 py-1.5">
-                      <span className="h-2 w-2 rounded-full bg-accent" />
-                      <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-accent">
-                        {category.emphasis}
-                      </span>
-                    </div>
-                    <h3 className="text-lg font-bold text-foreground">
-                      {category.title}
-                    </h3>
-                  </div>
-                  <div className="rounded-full border border-border bg-background/60 px-3 py-1 text-sm text-foreground-secondary">
-                    {category.items.length}
-                  </div>
+        <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-2">
+          {technologyStacks.map((category) => (
+            <div key={category.title} className="min-w-0 rounded-lg border border-border bg-surface p-5 shadow-sm sm:p-6">
+              <h3 className="text-xl font-bold text-foreground">{category.title}</h3>
+              <p className="mb-6 mt-2 text-sm leading-relaxed text-foreground-secondary">{category.summary}</p>
+              <TechnologyList tools={category.tools} />
+              {category.otherTools && (
+                <div className="mt-8">
+                  <h4 className="mb-4 text-sm font-semibold text-foreground">Other assessment tools</h4>
+                  <dl className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                    {category.otherTools.map((tool) => (
+                      <div key={tool.name}>
+                        <dt className="text-sm font-medium text-foreground">{tool.name}</dt>
+                        <dd className="mt-1 text-xs leading-relaxed text-foreground-secondary">{tool.description}</dd>
+                      </div>
+                    ))}
+                  </dl>
                 </div>
-
-                <p className="mb-5 text-sm leading-relaxed text-foreground-secondary">
-                  {category.summary}
-                </p>
-
-                <div className="mb-3 text-[11px] font-mono uppercase tracking-[0.2em] text-foreground-muted">
-                  Tools & Patterns
+              )}
+              {category.resources && (
+                <div className="mt-8">
+                  <h4 className="mb-4 text-sm font-semibold text-foreground">Distribution & guidance</h4>
+                  <TechnologyList tools={category.resources} />
                 </div>
-                <div className="flex flex-wrap gap-2">
-                  {category.items.map((skill) => (
-                    <Badge key={skill}>{skill}</Badge>
-                  ))}
+              )}
+              {category.support && (
+                <div className="mt-8 border-t border-border pt-5">
+                  <h4 className="text-sm font-semibold text-foreground">{category.supportTitle}</h4>
+                  <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-relaxed text-foreground-secondary marker:text-accent">
+                    {category.support.map((item) => <li key={item}>{item}</li>)}
+                  </ul>
                 </div>
-              </Card>
-            </AnimateOnScroll>
+              )}
+            </div>
           ))}
         </div>
-
-        {/* Bottom statement for authority */}
-        <AnimateOnScroll animation="animate-fade-in-up" delay={600}>
-          <div className="mt-12 rounded-[1.75rem] border border-border bg-surface/35 p-6 backdrop-blur-md">
-            <div className="text-[11px] font-mono uppercase tracking-[0.24em] text-accent">
-              Engineering Perspective
-            </div>
-            <p className="mt-4 max-w-4xl text-sm leading-relaxed text-foreground-muted md:text-base">
-              My strongest value is not just knowing tools, but knowing how to combine them into stable
-              systems. I care about where business logic lives, how permissions behave, how data grows,
-              and how the product stays maintainable once real users and real workflows start depending on it.
-            </p>
-          </div>
-        </AnimateOnScroll>
+        <p className="mt-8 border-t border-border pt-6 text-sm leading-relaxed text-foreground-muted">
+          Security tools are selected according to the written scope of an authorized assessment.
+          Kali Linux is a distribution that contains security tools; OWASP Top 10 provides web security guidance.
+        </p>
       </div>
     </section>
   );
